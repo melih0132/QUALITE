@@ -1,10 +1,11 @@
 ﻿namespace TD1Debug
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ExoDebug exoDebug = new ExoDebug();
+            exoDebug.Exercice4_3();
         }
     }
 }

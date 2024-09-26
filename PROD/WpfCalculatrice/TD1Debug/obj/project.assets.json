@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "Microsoft.DotNet.ILCompiler/8.0.6": {
+      "Microsoft.DotNet.ILCompiler/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.6": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -30,10 +30,10 @@
     }
   },
   "libraries": {
-    "Microsoft.DotNet.ILCompiler/8.0.6": {
-      "sha512": "u3mX8tpzurjYoh4FcSdK+nDeEk29XvFCPM91jW0JVyQxdi2LlwHIn7Ac7qVLkxwcCdPPHHfPj6mgxfeNRQXu0Q==",
+    "Microsoft.DotNet.ILCompiler/8.0.8": {
+      "sha512": "OWFDT/S4Zl5QVakCjVfRaZTLrmWDhA20ud/BKkru7vWnIrejMcUk4Xz2MwavgyzBypryoHYta787k4avhxsU9A==",
       "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/8.0.6",
+      "path": "microsoft.dotnet.ilcompiler/8.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -52,7 +52,7 @@
         "build/NativeAOT.natvis",
         "build/WindowsAPIs.txt",
         "build/findvcvarsall.bat",
-        "microsoft.dotnet.ilcompiler.8.0.6.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.8.0.8.nupkg.sha512",
         "microsoft.dotnet.ilcompiler.nuspec",
         "runtime.json",
         "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
@@ -60,10 +60,10 @@
         "tools/netstandard/ILCompiler.Build.Tasks.pdb"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.6": {
-      "sha512": "E+lDylsTeP4ZiDmnEkiJ5wobnGaIJzFhOgZppznJCb69UZgbh6G3cfv1pnLDLLBx6JAgl0kAlnINDeT3uCuczQ==",
+    "Microsoft.NET.ILLink.Tasks/8.0.8": {
+      "sha512": "P8wR6MUWwYXIjPJuBaZgo5zlI/GWI6QEAo6NyVIbPefa9CCkohYu7dP2rD/mrqnjEqfRHyl+h9VZrDoGpELqYg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.6",
+      "path": "microsoft.net.illink.tasks/8.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -77,7 +77,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -120,28 +120,28 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Calculatrice >= 1.0.0",
-      "Microsoft.DotNet.ILCompiler >= 8.0.6",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.6"
+      "Microsoft.DotNet.ILCompiler >= 8.0.8",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.8"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cetinkam\\.nuget\\packages\\": {},
+    "C:\\Users\\melih\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\R3.04 Qualite\\TD1\\WpfCalculatrice\\TD1Debug\\TD1Debug.csproj",
+      "projectUniqueName": "C:\\Users\\melih\\Desktop\\Travaux à faire\\QUALITE\\PROD\\WpfCalculatrice\\TD1Debug\\TD1Debug.csproj",
       "projectName": "TD1Debug",
-      "projectPath": "P:\\R3.04 Qualite\\TD1\\WpfCalculatrice\\TD1Debug\\TD1Debug.csproj",
-      "packagesPath": "C:\\Users\\cetinkam\\.nuget\\packages\\",
-      "outputPath": "P:\\R3.04 Qualite\\TD1\\WpfCalculatrice\\TD1Debug\\obj\\",
+      "projectPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\QUALITE\\PROD\\WpfCalculatrice\\TD1Debug\\TD1Debug.csproj",
+      "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\QUALITE\\PROD\\WpfCalculatrice\\TD1Debug\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\cetinkam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -157,8 +157,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows7.0",
           "projectReferences": {
-            "P:\\R3.04 Qualite\\TD1\\WpfCalculatrice\\Calculatrice\\Calculatrice.csproj": {
-              "projectPath": "P:\\R3.04 Qualite\\TD1\\WpfCalculatrice\\Calculatrice\\Calculatrice.csproj"
+            "C:\\Users\\melih\\Desktop\\Travaux à faire\\QUALITE\\PROD\\WpfCalculatrice\\Calculatrice\\Calculatrice.csproj": {
+              "projectPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\QUALITE\\PROD\\WpfCalculatrice\\Calculatrice\\Calculatrice.csproj"
             }
           }
         }
@@ -181,13 +181,13 @@
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.6, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.6, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           }
         },
@@ -205,7 +205,7 @@
         "downloadDependencies": [
           {
             "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.8, 8.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -213,7 +213,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

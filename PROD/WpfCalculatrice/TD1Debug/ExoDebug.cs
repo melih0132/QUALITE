@@ -10,30 +10,6 @@ namespace TD1Debug //Achanger si le nom du projet que vous avez créé n'est pas
 {
     public class ExoDebug
     {
-        #region Exercice 1 Error / Warning
-
-        private double Exercice1_Error()
-        {
-            double nb;
-
-            return Calcul.Addition(nb, nb);
-        }
-
-        private string Exercice1_Warning()
-        {
-            double nb;
-
-            return "warning";
-        }
-
-        private int Exercice1_Warning(int a, int b)
-        {
-            #warning TODO : return the calcul result
-            return 0;
-        }
-
-        #endregion
-
         #region Exercice 2 Assertion
 
         /// <summary>
@@ -46,6 +22,8 @@ namespace TD1Debug //Achanger si le nom du projet que vous avez créé n'est pas
         {
             System.Diagnostics.Debug.Assert(a > 0 && b > 0, "A et/ou B sont négatif");
             return a * b;
+            //en debug l'assertion est verifié donc cela annule le c n°2
+            //en release l’assertion est ignorée c = 6 et c = -6
         }
 
         public void Exercice2()
