@@ -62,7 +62,7 @@
                     Width="40"
                     Height="40"
                     Margin="20"
-                    Click="Division_Click"
+                    Click="Factorielle_Click"
                     Content="!" />
             </StackPanel>
 

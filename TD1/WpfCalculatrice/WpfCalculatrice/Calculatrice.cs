@@ -3,6 +3,9 @@ using System.ComponentModel;
 
 namespace WpfCalculatrice
 {
+    /// <summary>
+    /// class calculatrice non static
+    /// </summary>
     public class Calculatrice : INotifyPropertyChanged
     {
         private double premierNB;
@@ -59,31 +62,31 @@ namespace WpfCalculatrice
             }
         }
 
-        public double Addition(double premierNB, double secondNB)
-        {
-            return premierNB + secondNB;
-        }
+        //public double Addition(double premierNB, double secondNB)
+        //{
+        //    return premierNB + secondNB;
+        //}
 
-        public double Soustraction(double premierNB, double secondNB)
-        {
-            return premierNB - secondNB;
-        }
+        //public double Soustraction(double premierNB, double secondNB)
+        //{
+        //    return premierNB - secondNB;
+        //}
 
-        public double Multiplication(double premierNB, double secondNB)
-        {
-            return premierNB * secondNB;
-        }
+        //public double Multiplication(double premierNB, double secondNB)
+        //{
+        //    return premierNB * secondNB;
+        //}
 
-        public double Division(double premierNB, double secondNB)
-        {
-            if (secondNB != 0)
-            {
-                return premierNB / secondNB;
-            }
-            else
-            {
-                throw new DivideByZeroException("division par zéro impossible");
-            }
-        }
+        //public double Division(double premierNB, double secondNB)
+        //{
+        //    if (secondNB != 0)
+        //    {
+        //        return premierNB / secondNB;
+        //    }
+        //    else
+        //    {
+        //        throw new DivideByZeroException("division par zéro impossible");
+        //    }
+        //}
     }
 }
