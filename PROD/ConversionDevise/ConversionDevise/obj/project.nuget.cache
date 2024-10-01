@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k3geEbWUVuk=",
+  "dgSpecHash": "cvXL/qicYSY=",
   "success": true,
-  "projectFilePath": "P:\\R3.04 Qualite\\PROD\\ConversionDevise\\ConversionDevise\\ConversionDevise.csproj",
+  "projectFilePath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\QUALITE\\PROD\\ConversionDevise\\ConversionDevise\\ConversionDevise.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cetinkam\\.nuget\\packages\\materialdesigncolors\\3.1.0\\materialdesigncolors.3.1.0.nupkg.sha512",
-    "C:\\Users\\cetinkam\\.nuget\\packages\\materialdesignthemes\\5.1.0\\materialdesignthemes.5.1.0.nupkg.sha512",
-    "C:\\Users\\cetinkam\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    "C:\\Users\\melih\\.nuget\\packages\\materialdesigncolors\\3.1.0\\materialdesigncolors.3.1.0.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\materialdesignthemes\\5.1.0\\materialdesignthemes.5.1.0.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
   ],
   "logs": []
 }

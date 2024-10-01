@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfCalculatrice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44eb967eed835261b0a73214414222873d9dd1aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43016fec9fce0726bfe60e7cd72d228037ce5450")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfCalculatrice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfCalculatrice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

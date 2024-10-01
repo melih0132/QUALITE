@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\
 ConversionDevise
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\App.xaml
-4-371539635
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\App.xaml
+4-1073063557
 
-7-395468092
-201279096700
-MainWindow.xaml;UC\UserControl1.xaml;UC\UserControl2.xaml;UC\UserControl3.xaml;
+71083661112
+2011028661612
+MainWindow.xaml;UC\ConvertisseurDevise.xaml;UC\ConvertisseurEuro.xaml;UC\GestionDevises.xaml;
 
-True
+False
 

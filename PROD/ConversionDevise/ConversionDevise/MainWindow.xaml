@@ -18,20 +18,30 @@
     TextOptions.TextRenderingMode="Auto"
     mc:Ignorable="d">
     <Grid>
-        <StackPanel>
-            <DockPanel>
-                <materialDesign:PopupBox
-                    DockPanel.Dock="Left"
-                    PlacementMode="BottomAndAlignLeftEdges"
-                    StaysOpen="False">
-                    <StackPanel>
-                        <Button Content="€ -> Devise"/>
-                        <Button Content="Devise -> €"/>
-                        <Separator />
-                        <Button Content="Devises"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0">
+            <materialDesign:PopupBox
+                DockPanel.Dock="Left"
+                PlacementMode="BottomAndAlignLeftEdges"
+                StaysOpen="False">
+                <StackPanel>
+                    <Button Content="€ -> Devise"/>
+                    <Button Content="Devise -> €"/>
+                    <Separator />
+                    <Button Content="Devises"/>
                     </StackPanel>
-                </materialDesign:PopupBox>
-            </DockPanel>
-        </StackPanel>
+            </materialDesign:PopupBox>
+            <TextBlock Text="Convertisseur de Devises"
+                       VerticalAlignment="Center" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       Margin="20,0,0,0"/>        
+        </DockPanel>
+        <ContentControl Grid.Row="1">
+            
+        </ContentControl>
     </Grid>
 </Window>
