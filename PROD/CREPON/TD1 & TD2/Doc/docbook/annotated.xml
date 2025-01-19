@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="en-US">
+<title>Class List</title>
+Here are the classes, structs, unions and interfaces with brief descriptions:<link linkend="_class_calculatrice_1_1_calcul">Calcul</link>
+<para>Classe qui gère toutes les opérations arithmétiques de la calculatrice </para>
+<link linkend="_class_wpf_calculatrice_1_1_app">App</link>
+<para>Interaction logic for App.xaml </para>
+<link linkend="_class_wpf_calculatrice_1_1_main_window">MainWindow</link>
+<para>Logique d&apos;interaction pour la fenÃªtre principale de l&apos;application </para>
+</section>

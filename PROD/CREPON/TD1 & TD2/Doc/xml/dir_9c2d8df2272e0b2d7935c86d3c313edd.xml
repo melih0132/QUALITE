@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_9c2d8df2272e0b2d7935c86d3c313edd" kind="dir">
+    <compoundname>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice</compoundname>
+    <innerdir refid="dir_03f2e59fc74148e04f418dbdcffe8572">P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <innerfile refid="_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,251 @@
+.TH "MainWindow" 3 "Version 1.0" "Calculatrice WPF" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MainWindow \- Logique d'interaction pour la fenêtre principale de l'application\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Window, INotifyPropertyChanged, Window, IComponentConnector, Window, and IComponentConnector\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMainWindow\fP ()"
+.br
+.RI "Initialise une nouvelle instance de la classe \fBMainWindow\fP\&. "
+.ti -1c
+.RI "void \fBInitializeComponent\fP ()"
+.br
+.RI "InitializeComponent\&. "
+.ti -1c
+.RI "void \fBInitializeComponent\fP ()"
+.br
+.RI "InitializeComponent\&. "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnPropertyChanged\fP (string name)"
+.br
+.RI "Notifie les abonnés qu'une propriété a changé\&. "
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "System\&.Windows\&.Controls\&.Button \fBbutDivise\fP"
+.br
+.ti -1c
+.RI "System\&.Windows\&.Controls\&.Button \fBbutFact\fP"
+.br
+.ti -1c
+.RI "System\&.Windows\&.Controls\&.Button \fBbutMoins\fP"
+.br
+.ti -1c
+.RI "System\&.Windows\&.Controls\&.Button \fBbutMultiplie\fP"
+.br
+.ti -1c
+.RI "System\&.Windows\&.Controls\&.Button \fBbutPlus\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "double \fBNb1\fP\fR [get, set]\fP"
+.br
+.ti -1c
+.RI "double \fBNb2\fP\fR [get, set]\fP"
+.br
+.ti -1c
+.RI "double \fBResultat\fP\fR [get, set]\fP"
+.br
+.RI "Obtient ou définit le résultat de l'opération\&. "
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "PropertyChangedEventHandler \fBPropertyChanged\fP"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBbutDivise_Click\fP (object sender, RoutedEventArgs e)"
+.br
+.RI "Gère l'événement de clic pour l'opération de division\&. "
+.ti -1c
+.RI "void \fBbutFact_Click\fP (object sender, RoutedEventArgs e)"
+.br
+.RI "Gère l'événement de clic pour l'opération de factorielle\&. "
+.ti -1c
+.RI "void \fBbutMoins_Click\fP (object sender, RoutedEventArgs e)"
+.br
+.RI "Gère l'événement de clic pour l'opération de soustraction\&. "
+.ti -1c
+.RI "void \fBbutMultiplie_Click\fP (object sender, RoutedEventArgs e)"
+.br
+.RI "Gère l'événement de clic pour l'opération de multiplication\&. "
+.ti -1c
+.RI "void \fBbutPlus_Click\fP (object sender, RoutedEventArgs e)"
+.br
+.RI "Gère l'événement de clic pour l'opération d'addition\&. "
+.ti -1c
+.RI "void System\&.Windows\&.Markup\&.IComponentConnector\&. \fBConnect\fP (int connectionId, object target)"
+.br
+.ti -1c
+.RI "void System\&.Windows\&.Markup\&.IComponentConnector\&. \fBConnect\fP (int connectionId, object target)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fB_contentLoaded\fP"
+.br
+.ti -1c
+.RI "double \fBresultat\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Logique d'interaction pour la fenêtre principale de l'application\&. 
+
+\fBMainWindow\fP\&. 
+.PP
+Definition at line \fB42\fP of file \fBMainWindow\&.g\&.i\&.cs\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "\fBMainWindow\fP ()"
+
+.PP
+Initialise une nouvelle instance de la classe \fBMainWindow\fP\&. 
+.PP
+Definition at line \fB17\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void butDivise_Click (object sender, RoutedEventArgs e)\fR [private]\fP"
+
+.PP
+Gère l'événement de clic pour l'opération de division\&. 
+.PP
+Definition at line \fB82\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SS "void butFact_Click (object sender, RoutedEventArgs e)\fR [private]\fP"
+
+.PP
+Gère l'événement de clic pour l'opération de factorielle\&. 
+.PP
+Definition at line \fB67\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SS "void butMoins_Click (object sender, RoutedEventArgs e)\fR [private]\fP"
+
+.PP
+Gère l'événement de clic pour l'opération de soustraction\&. 
+.PP
+Definition at line \fB51\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SS "void butMultiplie_Click (object sender, RoutedEventArgs e)\fR [private]\fP"
+
+.PP
+Gère l'événement de clic pour l'opération de multiplication\&. 
+.PP
+Definition at line \fB59\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SS "void butPlus_Click (object sender, RoutedEventArgs e)\fR [private]\fP"
+
+.PP
+Gère l'événement de clic pour l'opération d'addition\&. 
+.PP
+Definition at line \fB43\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SS "void System\&.Windows\&.Markup\&.IComponentConnector\&. Connect (int connectionId, object target)\fR [private]\fP"
+
+.PP
+Definition at line \fB111\fP of file \fBMainWindow\&.g\&.cs\fP\&.
+.SS "void System\&.Windows\&.Markup\&.IComponentConnector\&. Connect (int connectionId, object target)\fR [private]\fP"
+
+.PP
+Definition at line \fB111\fP of file \fBMainWindow\&.g\&.i\&.cs\fP\&.
+.SS "void InitializeComponent ()"
+
+.PP
+InitializeComponent\&. 
+.PP
+Definition at line \fB91\fP of file \fBMainWindow\&.g\&.cs\fP\&.
+.SS "void InitializeComponent ()"
+
+.PP
+InitializeComponent\&. 
+.PP
+Definition at line \fB91\fP of file \fBMainWindow\&.g\&.i\&.cs\fP\&.
+.SS "void OnPropertyChanged (string name)\fR [protected]\fP"
+
+.PP
+Notifie les abonnés qu'une propriété a changé\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP Le nom de la propriété qui a changé\&.
+.RE
+.PP
+
+.PP
+Definition at line \fB98\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "bool _contentLoaded\fR [private]\fP"
+
+.PP
+Definition at line \fB84\fP of file \fBMainWindow\&.g\&.cs\fP\&.
+.SS "System Windows Controls Button butDivise\fR [package]\fP"
+
+.PP
+Definition at line \fB79\fP of file \fBMainWindow\&.g\&.cs\fP\&.
+.SS "System Windows Controls Button butFact\fR [package]\fP"
+
+.PP
+Definition at line \fB63\fP of file \fBMainWindow\&.g\&.cs\fP\&.
+.SS "System Windows Controls Button butMoins\fR [package]\fP"
+
+.PP
+Definition at line \fB55\fP of file \fBMainWindow\&.g\&.cs\fP\&.
+.SS "System Windows Controls Button butMultiplie\fR [package]\fP"
+
+.PP
+Definition at line \fB71\fP of file \fBMainWindow\&.g\&.cs\fP\&.
+.SS "System Windows Controls Button butPlus\fR [package]\fP"
+
+.PP
+Definition at line \fB47\fP of file \fBMainWindow\&.g\&.cs\fP\&.
+.SS "double resultat\fR [private]\fP"
+
+.PP
+Definition at line \fB26\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "double Nb1\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Definition at line \fB23\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SS "double Nb2\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Definition at line \fB24\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SS "double Resultat\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Obtient ou définit le résultat de l'opération\&. 
+.PP
+Definition at line \fB30\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+.SH "Event Documentation"
+.PP 
+.SS "PropertyChangedEventHandler PropertyChanged"
+
+.PP
+Definition at line \fB12\fP of file \fBMainWindow\&.xaml\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Calculatrice WPF from the source code\&.

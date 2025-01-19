@@ -1,0 +1,203 @@
+\doxysection{Calcul}
+\hypertarget{class_calculatrice_1_1_calcul}{}\label{class_calculatrice_1_1_calcul}\index{Calcul@{Calcul}}
+
+
+Classe qui gère toutes les opérations arithmétiques de la calculatrice.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{class_calculatrice_1_1_calcul_a1de7821eed025c8319ead058b259ed7a}{Addition}} (double a, double b)
+\begin{DoxyCompactList}\small\item\em Additionne deux nombres. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_calculatrice_1_1_calcul_aba97d5efa1c44a62578c1faf2dfc7ba2}{Division}} (double a, double b)
+\begin{DoxyCompactList}\small\item\em Divise le premier nombre par le deuxième. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_calculatrice_1_1_calcul_a535c182868633726d68858cae3152931}{Factorielle}} (double a)
+\begin{DoxyCompactList}\small\item\em Calcule la factorielle d\textquotesingle{}un nombre entier non négatif. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_calculatrice_1_1_calcul_a359c20c3e7babcac610af76b9a14874f}{Multiplication}} (double a, double b)
+\begin{DoxyCompactList}\small\item\em Multiplie deux nombres. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_calculatrice_1_1_calcul_a5580cea5b8bf995353c5337cfd2ea98d}{Soustraction}} (double a, double b)
+\begin{DoxyCompactList}\small\item\em Soustrait le deuxième nombre du premier. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe qui gère toutes les opérations arithmétiques de la calculatrice. 
+
+Definition at line \mbox{\hyperlink{_calcul_8cs_source_l00006}{6}} of file \mbox{\hyperlink{_calcul_8cs_source}{Calcul.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_calculatrice_1_1_calcul_a1de7821eed025c8319ead058b259ed7a}\index{Calcul@{Calcul}!Addition@{Addition}}
+\index{Addition@{Addition}!Calcul@{Calcul}}
+\doxysubsubsection{\texorpdfstring{Addition()}{Addition()}}
+{\footnotesize\ttfamily \label{class_calculatrice_1_1_calcul_a1de7821eed025c8319ead058b259ed7a} 
+static double Addition (\begin{DoxyParamCaption}\item[{double}]{a}{, }\item[{double}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Additionne deux nombres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Premier nombre.\\
+\hline
+{\em b} & Deuxième nombre.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+La somme de {\itshape a}  et {\itshape b} .
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_calcul_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_calcul_8cs_source}{Calcul.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_calculatrice_1_1_calcul_a1de7821eed025c8319ead058b259ed7a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_calculatrice_1_1_calcul_aba97d5efa1c44a62578c1faf2dfc7ba2}\index{Calcul@{Calcul}!Division@{Division}}
+\index{Division@{Division}!Calcul@{Calcul}}
+\doxysubsubsection{\texorpdfstring{Division()}{Division()}}
+{\footnotesize\ttfamily \label{class_calculatrice_1_1_calcul_aba97d5efa1c44a62578c1faf2dfc7ba2} 
+static double Division (\begin{DoxyParamCaption}\item[{double}]{a}{, }\item[{double}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Divise le premier nombre par le deuxième. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Numérateur.\\
+\hline
+{\em b} & Dénominateur (ne doit pas être égal à 0).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Le quotient de {\itshape a}  et {\itshape b} .
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Divide\+By\+Zero\+Exception} & Lance une exception si {\itshape b}  est égal à 0.\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line \mbox{\hyperlink{_calcul_8cs_source_l00048}{48}} of file \mbox{\hyperlink{_calcul_8cs_source}{Calcul.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_calculatrice_1_1_calcul_aba97d5efa1c44a62578c1faf2dfc7ba2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_calculatrice_1_1_calcul_a535c182868633726d68858cae3152931}\index{Calcul@{Calcul}!Factorielle@{Factorielle}}
+\index{Factorielle@{Factorielle}!Calcul@{Calcul}}
+\doxysubsubsection{\texorpdfstring{Factorielle()}{Factorielle()}}
+{\footnotesize\ttfamily \label{class_calculatrice_1_1_calcul_a535c182868633726d68858cae3152931} 
+static double Factorielle (\begin{DoxyParamCaption}\item[{double}]{a}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calcule la factorielle d\textquotesingle{}un nombre entier non négatif. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Nombre entier non négatif.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+La factorielle de {\itshape a} .
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & Lance une exception si {\itshape a}  est négatif ou non entier.\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line \mbox{\hyperlink{_calcul_8cs_source_l00060}{60}} of file \mbox{\hyperlink{_calcul_8cs_source}{Calcul.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_calculatrice_1_1_calcul_a535c182868633726d68858cae3152931_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_calculatrice_1_1_calcul_a359c20c3e7babcac610af76b9a14874f}\index{Calcul@{Calcul}!Multiplication@{Multiplication}}
+\index{Multiplication@{Multiplication}!Calcul@{Calcul}}
+\doxysubsubsection{\texorpdfstring{Multiplication()}{Multiplication()}}
+{\footnotesize\ttfamily \label{class_calculatrice_1_1_calcul_a359c20c3e7babcac610af76b9a14874f} 
+static double Multiplication (\begin{DoxyParamCaption}\item[{double}]{a}{, }\item[{double}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Multiplie deux nombres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Premier nombre.\\
+\hline
+{\em b} & Deuxième nombre.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Le produit de {\itshape a}  et {\itshape b} .
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_calcul_8cs_source_l00036}{36}} of file \mbox{\hyperlink{_calcul_8cs_source}{Calcul.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_calculatrice_1_1_calcul_a359c20c3e7babcac610af76b9a14874f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_calculatrice_1_1_calcul_a5580cea5b8bf995353c5337cfd2ea98d}\index{Calcul@{Calcul}!Soustraction@{Soustraction}}
+\index{Soustraction@{Soustraction}!Calcul@{Calcul}}
+\doxysubsubsection{\texorpdfstring{Soustraction()}{Soustraction()}}
+{\footnotesize\ttfamily \label{class_calculatrice_1_1_calcul_a5580cea5b8bf995353c5337cfd2ea98d} 
+static double Soustraction (\begin{DoxyParamCaption}\item[{double}]{a}{, }\item[{double}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Soustrait le deuxième nombre du premier. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Premier nombre.\\
+\hline
+{\em b} & Deuxième nombre.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+La différence entre {\itshape a}  et {\itshape b} .
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_calcul_8cs_source_l00025}{25}} of file \mbox{\hyperlink{_calcul_8cs_source}{Calcul.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_calculatrice_1_1_calcul_a5580cea5b8bf995353c5337cfd2ea98d_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+INFO2/\+S3/\+R3.\+04/\+TD1/\+Wpf\+Calculatrice/\+Calculatrice/\mbox{\hyperlink{_calcul_8cs}{Calcul.\+cs}}\end{DoxyCompactItemize}

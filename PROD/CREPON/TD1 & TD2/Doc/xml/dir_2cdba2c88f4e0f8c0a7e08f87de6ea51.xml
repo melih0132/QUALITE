@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_2cdba2c88f4e0f8c0a7e08f87de6ea51" kind="dir">
+    <compoundname>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice</compoundname>
+    <innerdir refid="dir_fb5555e8914ef75b3894c53d7320d774">P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj</innerdir>
+    <innerfile refid="_calcul_8cs">Calcul.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/"/>
+  </compounddef>
+</doxygen>

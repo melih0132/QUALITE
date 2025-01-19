@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__app_8g_8cs" xml:lang="en-US">
+<title>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs File Reference</title>
+<indexterm><primary>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_wpf_calculatrice_1_1_app">App</link></para>
+
+<para>Interaction logic for App.xaml. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_wpf_calculatrice">WpfCalculatrice</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

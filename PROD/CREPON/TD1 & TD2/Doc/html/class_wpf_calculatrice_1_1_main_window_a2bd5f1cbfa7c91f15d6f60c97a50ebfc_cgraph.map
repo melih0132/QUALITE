@@ -1,0 +1,23 @@
+<map id="Connect" name="Connect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,75,133"/>
+<area shape="rect" id="Node000002" href="$class_wpf_calculatrice_1_1_main_window.html#ad7baaaa5f23dc2528d54b4b58d58d199" title="Gère l&#39;événement de clic pour l&#39;opération de division." alt="" coords="130,5,239,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,104,81,74,121,42,130,37,133,41,124,46,85,77,55,108"/>
+<area shape="rect" id="Node000004" href="$class_wpf_calculatrice_1_1_main_window.html#ad259823fc0fb4c205318a98b4ec06f65" title="Gère l&#39;événement de clic pour l&#39;opération de factorielle." alt="" coords="134,56,235,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="74,105,130,86,132,91,76,110"/>
+<area shape="rect" id="Node000006" href="$class_wpf_calculatrice_1_1_main_window.html#a59c968a953903eb2efdb95d3dfb7ec89" title="Gère l&#39;événement de clic pour l&#39;opération de soustraction." alt="" coords="129,107,240,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="75,117,114,117,114,123,75,123"/>
+<area shape="rect" id="Node000008" href="$class_wpf_calculatrice_1_1_main_window.html#a843f68dbd9dc4a2eed88659c91b68308" title="Gère l&#39;événement de clic pour l&#39;opération de multiplication." alt="" coords="123,157,246,184"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="76,130,132,149,130,154,74,135"/>
+<area shape="rect" id="Node000010" href="$class_wpf_calculatrice_1_1_main_window.html#a83e893ea4ecde18999310f16fcf0d35f" title="Gère l&#39;événement de clic pour l&#39;opération d&#39;addition." alt="" coords="134,208,235,235"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="55,132,85,163,124,194,133,199,130,203,121,198,81,166,51,136"/>
+<area shape="rect" id="Node000003" href="$class_calculatrice_1_1_calcul.html#aba97d5efa1c44a62578c1faf2dfc7ba2" title="Divise le premier nombre par le deuxième." alt="" coords="310,5,487,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,16,295,16,295,21,240,21"/>
+<area shape="rect" id="Node000005" href="$class_calculatrice_1_1_calcul.html#a535c182868633726d68858cae3152931" title="Calcule la factorielle d&#39;un nombre entier non négatif." alt="" coords="302,56,495,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="235,67,287,67,287,72,235,72"/>
+<area shape="rect" id="Node000007" href="$class_calculatrice_1_1_calcul.html#a5580cea5b8bf995353c5337cfd2ea98d" title="Soustrait le deuxième nombre du premier." alt="" coords="296,107,502,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="240,117,281,117,281,123,240,123"/>
+<area shape="rect" id="Node000009" href="$class_calculatrice_1_1_calcul.html#a359c20c3e7babcac610af76b9a14874f" title="Multiplie deux nombres." alt="" coords="294,157,503,184"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="246,168,279,168,279,173,246,173"/>
+<area shape="rect" id="Node000011" href="$class_calculatrice_1_1_calcul.html#a1de7821eed025c8319ead058b259ed7a" title="Additionne deux nombres." alt="" coords="309,208,489,235"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="235,219,294,219,294,224,235,224"/>
+</map>

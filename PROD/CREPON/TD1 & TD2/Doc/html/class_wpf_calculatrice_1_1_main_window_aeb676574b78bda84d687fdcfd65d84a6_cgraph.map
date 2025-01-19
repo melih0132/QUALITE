@@ -1,0 +1,5 @@
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="Node000001" title="Initialise une nouvelle instance de la classe MainWindow." alt="" coords="5,5,101,32"/>
+<area shape="rect" id="Node000002" href="$class_wpf_calculatrice_1_1_main_window.html#a6405d5db675d5338663195a4d12b4c9f" title="InitializeComponent." alt="" coords="149,5,283,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,16,134,16,134,21,101,21"/>
+</map>

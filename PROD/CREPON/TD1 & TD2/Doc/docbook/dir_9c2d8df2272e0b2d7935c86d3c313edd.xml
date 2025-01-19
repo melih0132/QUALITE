@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_9c2d8df2272e0b2d7935c86d3c313edd" xml:lang="en-US">
+<title>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice Directory Reference</title>
+<indexterm><primary>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice Directory Reference</primary></indexterm>
+Directory dependency graph for WpfCalculatrice:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_9c2d8df2272e0b2d7935c86d3c313edd_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_03f2e59fc74148e04f418dbdcffe8572">obj</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__app_8xaml_8cs">App.xaml.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__assembly_info_8cs">AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__main_window_8xaml_8cs">MainWindow.xaml.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

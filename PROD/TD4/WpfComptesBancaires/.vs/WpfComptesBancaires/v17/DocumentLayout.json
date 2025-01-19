@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{243CDDC1-81FD-4C67-B058-CB2558379425}|BusinessLayerTests\\BusinessLayerTests.csproj|p:\\r3.04 qualite\\prod\\td4\\wpfcomptesbancaires\\businesslayertests\\servicecomptetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243CDDC1-81FD-4C67-B058-CB2558379425}|BusinessLayerTests\\BusinessLayerTests.csproj|solutionrelative:businesslayertests\\servicecomptetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE49D833-C0E2-4E74-915E-F26916743686}|BusinessLayer\\BusinessLayer.csproj|p:\\r3.04 qualite\\prod\\td4\\wpfcomptesbancaires\\businesslayer\\servicecompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE49D833-C0E2-4E74-915E-F26916743686}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\servicecompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE49D833-C0E2-4E74-915E-F26916743686}|BusinessLayer\\BusinessLayer.csproj|p:\\r3.04 qualite\\prod\\td4\\wpfcomptesbancaires\\businesslayer\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE49D833-C0E2-4E74-915E-F26916743686}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceCompteTests.cs",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayerTests\\ServiceCompteTests.cs",
+              "RelativeDocumentMoniker": "BusinessLayerTests\\ServiceCompteTests.cs",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayerTests\\ServiceCompteTests.cs",
+              "RelativeToolTip": "BusinessLayerTests\\ServiceCompteTests.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAtwCkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T09:13:44.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceCompte.cs",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayer\\ServiceCompte.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\ServiceCompte.cs",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayer\\ServiceCompte.cs",
+              "RelativeToolTip": "BusinessLayer\\ServiceCompte.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:37:21.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Compte.cs",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayer\\Compte.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Compte.cs",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayer\\Compte.cs",
+              "RelativeToolTip": "BusinessLayer\\Compte.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwB0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:36:57.647Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

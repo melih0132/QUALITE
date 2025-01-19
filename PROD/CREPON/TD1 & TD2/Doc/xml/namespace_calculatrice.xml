@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespace_calculatrice" kind="namespace" language="C#">
+    <compoundname>Calculatrice</compoundname>
+    <innerclass refid="class_calculatrice_1_1_calcul" prot="public">Calculatrice::Calcul</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

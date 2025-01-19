@@ -1,0 +1,152 @@
+.TH "Calcul" 3 "Version 1.0" "Calculatrice WPF" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Calcul \- Classe qui gère toutes les opérations arithmétiques de la calculatrice\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static double \fBAddition\fP (double a, double b)"
+.br
+.RI "Additionne deux nombres\&. "
+.ti -1c
+.RI "static double \fBDivision\fP (double a, double b)"
+.br
+.RI "Divise le premier nombre par le deuxième\&. "
+.ti -1c
+.RI "static double \fBFactorielle\fP (double a)"
+.br
+.RI "Calcule la factorielle d'un nombre entier non négatif\&. "
+.ti -1c
+.RI "static double \fBMultiplication\fP (double a, double b)"
+.br
+.RI "Multiplie deux nombres\&. "
+.ti -1c
+.RI "static double \fBSoustraction\fP (double a, double b)"
+.br
+.RI "Soustrait le deuxième nombre du premier\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe qui gère toutes les opérations arithmétiques de la calculatrice\&. 
+.PP
+Definition at line \fB6\fP of file \fBCalcul\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static double Addition (double a, double b)\fR [static]\fP"
+
+.PP
+Additionne deux nombres\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Premier nombre\&.
+.br
+\fIb\fP Deuxième nombre\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+La somme de \fIa\fP  et \fIb\fP \&.
+.RE
+.PP
+
+.PP
+Definition at line \fB14\fP of file \fBCalcul\&.cs\fP\&.
+.SS "static double Division (double a, double b)\fR [static]\fP"
+
+.PP
+Divise le premier nombre par le deuxième\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Numérateur\&.
+.br
+\fIb\fP Dénominateur (ne doit pas être égal à 0)\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Le quotient de \fIa\fP  et \fIb\fP \&.
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIDivideByZeroException\fP Lance une exception si \fIb\fP  est égal à 0\&.
+.RE
+.PP
+
+.PP
+Definition at line \fB48\fP of file \fBCalcul\&.cs\fP\&.
+.SS "static double Factorielle (double a)\fR [static]\fP"
+
+.PP
+Calcule la factorielle d'un nombre entier non négatif\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Nombre entier non négatif\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+La factorielle de \fIa\fP \&.
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIArgumentException\fP Lance une exception si \fIa\fP  est négatif ou non entier\&.
+.RE
+.PP
+
+.PP
+Definition at line \fB60\fP of file \fBCalcul\&.cs\fP\&.
+.SS "static double Multiplication (double a, double b)\fR [static]\fP"
+
+.PP
+Multiplie deux nombres\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Premier nombre\&.
+.br
+\fIb\fP Deuxième nombre\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Le produit de \fIa\fP  et \fIb\fP \&.
+.RE
+.PP
+
+.PP
+Definition at line \fB36\fP of file \fBCalcul\&.cs\fP\&.
+.SS "static double Soustraction (double a, double b)\fR [static]\fP"
+
+.PP
+Soustrait le deuxième nombre du premier\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Premier nombre\&.
+.br
+\fIb\fP Deuxième nombre\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+La différence entre \fIa\fP  et \fIb\fP \&.
+.RE
+.PP
+
+.PP
+Definition at line \fB25\fP of file \fBCalcul\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Calculatrice WPF from the source code\&.

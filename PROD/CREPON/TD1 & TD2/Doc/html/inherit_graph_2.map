@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,163,32"/>
+<area shape="rect" id="Node000001" href="$class_wpf_calculatrice_1_1_main_window.html" title="Logique d&#39;interaction pour la fenêtre principale de l&#39;application." alt="" coords="211,81,306,108"/>
+<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="147,35,164,42,235,78,233,83,162,46,145,40"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,56,159,83"/>
+<area shape="poly" id="edge4_Node000002_Node000001" title=" " alt="" coords="174,80,210,85,210,90,173,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="50,107,118,133"/>
+<area shape="poly" id="edge5_Node000003_Node000001" title=" " alt="" coords="132,110,210,99,211,104,133,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="50,157,118,184"/>
+<area shape="poly" id="edge6_Node000004_Node000001" title=" " alt="" coords="131,154,162,143,233,106,235,111,164,148,133,159"/>
+</map>

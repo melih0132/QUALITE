@@ -1,0 +1,81 @@
+\doxysection{Main\+Window.\+xaml.\+cs}
+\hypertarget{_main_window_8xaml_8cs_source}{}\label{_main_window_8xaml_8cs_source}\index{P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs@{P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs}}
+\mbox{\hyperlink{_main_window_8xaml_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_calculatrice}{Calculatrice}};}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.ComponentModel;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }System.Windows;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00005}00005\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_wpf_calculatrice}{WpfCalculatrice}}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00006}00006\ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00010}00010\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{partial\ class\ }MainWindow\ :\ Window,\ INotifyPropertyChanged}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00011}00011\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00012}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa421d817626998e9bcafaf0d70106b7f}{00012}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{event}\ PropertyChangedEventHandler\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa421d817626998e9bcafaf0d70106b7f}{PropertyChanged}};}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00017}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aeb676574b78bda84d687fdcfd65d84a6}{00017}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aeb676574b78bda84d687fdcfd65d84a6}{MainWindow}}()}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a6405d5db675d5338663195a4d12b4c9f}{InitializeComponent}}();}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \ \ \ \ this.DataContext\ =\ \textcolor{keyword}{this};\ \textcolor{comment}{//\ Définit\ le\ contexte\ de\ données\ pour\ le\ binding}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00023}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}{00023}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}{Nb1}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}\ \textcolor{comment}{//\ Premier\ nombre}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00024}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b}{00024}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b}{Nb2}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}\ \textcolor{comment}{//\ Deuxième\ nombre}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00026}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a86a4e1db4e8cd60eb37de51f37aed8c9}{00026}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a86a4e1db4e8cd60eb37de51f37aed8c9}{resultat}};}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00030}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{00030}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{Resultat}}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{get}\ \{\ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a86a4e1db4e8cd60eb37de51f37aed8c9}{resultat}};\ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{set}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a86a4e1db4e8cd60eb37de51f37aed8c9}{resultat}}\ =\ value;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a715f4dc547ae3df47826a1a6b3ec9403}{OnPropertyChanged}}(nameof(\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{Resultat}}));\ \textcolor{comment}{//\ Notifie\ le\ changement\ de\ la\ propriété}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00039}00039\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00043}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a83e893ea4ecde18999310f16fcf0d35f}{00043}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a83e893ea4ecde18999310f16fcf0d35f}{butPlus\_Click}}(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{Resultat}}\ =\ \mbox{\hyperlink{class_calculatrice_1_1_calcul}{Calcul}}.\mbox{\hyperlink{class_calculatrice_1_1_calcul_a1de7821eed025c8319ead058b259ed7a}{Addition}}(\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}{Nb1}},\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b}{Nb2}});}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00047}00047\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00051}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a59c968a953903eb2efdb95d3dfb7ec89}{00051}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a59c968a953903eb2efdb95d3dfb7ec89}{butMoins\_Click}}(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{Resultat}}\ =\ \mbox{\hyperlink{class_calculatrice_1_1_calcul}{Calcul}}.\mbox{\hyperlink{class_calculatrice_1_1_calcul_a5580cea5b8bf995353c5337cfd2ea98d}{Soustraction}}(\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}{Nb1}},\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b}{Nb2}});}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00059}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a843f68dbd9dc4a2eed88659c91b68308}{00059}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a843f68dbd9dc4a2eed88659c91b68308}{butMultiplie\_Click}}(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00060}00060\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00061}00061\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{Resultat}}\ =\ \mbox{\hyperlink{class_calculatrice_1_1_calcul}{Calcul}}.\mbox{\hyperlink{class_calculatrice_1_1_calcul_a359c20c3e7babcac610af76b9a14874f}{Multiplication}}(\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}{Nb1}},\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b}{Nb2}});}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00062}00062\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00063}00063\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00067}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_ad259823fc0fb4c205318a98b4ec06f65}{00067}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_ad259823fc0fb4c205318a98b4ec06f65}{butFact\_Click}}(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00069}00069\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00070}00070\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{Resultat}}\ =\ \mbox{\hyperlink{class_calculatrice_1_1_calcul}{Calcul}}.\mbox{\hyperlink{class_calculatrice_1_1_calcul_a535c182868633726d68858cae3152931}{Factorielle}}(\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}{Nb1}});}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00073}00073\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{catch}\ (Exception\ ex)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00074}00074\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00075}00075\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ MessageBox.Show(ex.Message,\ \textcolor{stringliteral}{"{}Erreur"{}},\ MessageBoxButton.OK,\ MessageBoxImage.Error);}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00077}00077\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00078}00078\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00082}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_ad7baaaa5f23dc2528d54b4b58d58d199}{00082}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_ad7baaaa5f23dc2528d54b4b58d58d199}{butDivise\_Click}}(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00083}00083\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00084}00084\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00085}00085\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00086}00086\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{Resultat}}\ =\ \mbox{\hyperlink{class_calculatrice_1_1_calcul}{Calcul}}.\mbox{\hyperlink{class_calculatrice_1_1_calcul_aba97d5efa1c44a62578c1faf2dfc7ba2}{Division}}(\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}{Nb1}},\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b}{Nb2}});}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00087}00087\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00088}00088\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{catch}\ (Exception\ ex)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00089}00089\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00090}00090\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ MessageBox.Show(ex.Message,\ \textcolor{stringliteral}{"{}Erreur"{}},\ MessageBoxButton.OK,\ MessageBoxImage.Error);}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00091}00091\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00092}00092\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00093}00093\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00098}\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a715f4dc547ae3df47826a1a6b3ec9403}{00098}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{protected}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a715f4dc547ae3df47826a1a6b3ec9403}{OnPropertyChanged}}(\textcolor{keywordtype}{string}\ name)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00099}00099\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00100}00100\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa421d817626998e9bcafaf0d70106b7f}{PropertyChanged}}?.Invoke(\textcolor{keyword}{this},\ \textcolor{keyword}{new}\ PropertyChangedEventArgs(name));\ \textcolor{comment}{//\ Utilisation\ de\ l'opérateur\ null-\/conditional}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00101}00101\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00102}00102\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00103}00103\ \}}
+
+\end{DoxyCode}

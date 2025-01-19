@@ -1,0 +1,11 @@
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\bin\Release\net8.0-windows\Calculatrice.deps.json
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\bin\Release\net8.0-windows\Calculatrice.dll
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\bin\Release\net8.0-windows\Calculatrice.pdb
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\obj\Release\net8.0-windows\Calculatrice.GeneratedMSBuildEditorConfig.editorconfig
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\obj\Release\net8.0-windows\Calculatrice.AssemblyInfoInputs.cache
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\obj\Release\net8.0-windows\Calculatrice.AssemblyInfo.cs
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\obj\Release\net8.0-windows\Calculatrice.csproj.CoreCompileInputs.cache
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\obj\Release\net8.0-windows\Calculatrice.dll
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\obj\Release\net8.0-windows\refint\Calculatrice.dll
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\obj\Release\net8.0-windows\Calculatrice.pdb
+P:\INFO2\S3\R3.04 Qualite\TD1\WpfCalculatrice\Calculatrice\obj\Release\net8.0-windows\ref\Calculatrice.dll

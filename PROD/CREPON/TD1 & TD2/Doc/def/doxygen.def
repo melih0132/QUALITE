@@ -1,0 +1,2116 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'class_application';
+  cp-name   = 'Application';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_app';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/App.xaml.cs';
+  cp-fileline  = '10';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Application';
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'App';
+        node-link = {
+          node-link-id = 'class_wpf_calculatrice_1_1_app';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_calculatrice_1_1_calcul';
+  cp-name   = 'Calculatrice::Calcul';
+  cp-section = {
+    sec-kind = 'public-static-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_calculatrice_1_1_calcul_1a1de7821eed025c8319ead058b259ed7a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Addition';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs';
+      sec-mem-desc-line = '14';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Additionne deux nombres.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<param name="a">Premier nombre.</param>
+<param name="b">Deuxième nombre.</param>
+<returns>La somme de <paramref name="a"/> et <paramref name="b"/>.</returns> 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a83e893ea4ecde18999310f16fcf0d35f';
+        sec-mem-ref-line = '43';
+        sec-mem-ref-name = 'MainWindow::butPlus_Click';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_calculatrice_1_1_calcul_1aba97d5efa1c44a62578c1faf2dfc7ba2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Division';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs';
+      sec-mem-desc-line = '48';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Divise le premier nombre par le deuxième.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<param name="a">Numérateur.</param>
+<param name="b">Dénominateur (ne doit pas être égal à 0).</param>
+<returns>Le quotient de <paramref name="a"/> et <paramref name="b"/>.</returns>
+<exception cref="DivideByZeroException">Lance une exception si <paramref name="b"/> est égal à 0.</exception> 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad7baaaa5f23dc2528d54b4b58d58d199';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'MainWindow::butDivise_Click';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_calculatrice_1_1_calcul_1a535c182868633726d68858cae3152931';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Factorielle';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs';
+      sec-mem-desc-line = '60';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Calcule la factorielle d'un nombre entier non négatif.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<param name="a">Nombre entier non négatif.</param>
+<returns>La factorielle de <paramref name="a"/>.</returns>
+<exception cref="ArgumentException">Lance une exception si <paramref name="a"/> est négatif ou non entier.</exception> 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad259823fc0fb4c205318a98b4ec06f65';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'MainWindow::butFact_Click';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_calculatrice_1_1_calcul_1a359c20c3e7babcac610af76b9a14874f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Multiplication';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs';
+      sec-mem-desc-line = '36';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Multiplie deux nombres.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<param name="a">Premier nombre.</param>
+<param name="b">Deuxième nombre.</param>
+<returns>Le produit de <paramref name="a"/> et <paramref name="b"/>.</returns> 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a843f68dbd9dc4a2eed88659c91b68308';
+        sec-mem-ref-line = '59';
+        sec-mem-ref-name = 'MainWindow::butMultiplie_Click';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_calculatrice_1_1_calcul_1a5580cea5b8bf995353c5337cfd2ea98d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Soustraction';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs';
+      sec-mem-desc-line = '25';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Soustrait le deuxième nombre du premier.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<param name="a">Premier nombre.</param>
+<param name="b">Deuxième nombre.</param>
+<returns>La différence entre <paramref name="a"/> et <paramref name="b"/>.</returns> 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a59c968a953903eb2efdb95d3dfb7ec89';
+        sec-mem-ref-line = '51';
+        sec-mem-ref-name = 'MainWindow::butMoins_Click';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs';
+  cp-fileline  = '6';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe qui gère toutes les opérations arithmétiques de la calculatrice.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_i_notify_property_changed';
+  cp-name   = 'INotifyPropertyChanged';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_main_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+  cp-fileline  = '10';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'INotifyPropertyChanged';
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'MainWindow';
+        node-link = {
+          node-link-id = 'class_wpf_calculatrice_1_1_main_window';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_system_1_1_windows_1_1_application';
+  cp-name   = 'System::Windows::Application';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_app';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_app';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  cp-fileline  = '42';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Application';
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'App';
+        node-link = {
+          node-link-id = 'class_wpf_calculatrice_1_1_app';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_system_1_1_windows_1_1_markup_1_1_i_component_connector';
+  cp-name   = 'System::Windows::Markup::IComponentConnector';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_main_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_main_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs';
+  cp-fileline  = '42';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'IComponentConnector';
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'MainWindow';
+        node-link = {
+          node-link-id = 'class_wpf_calculatrice_1_1_main_window';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_system_1_1_windows_1_1_window';
+  cp-name   = 'System::Windows::Window';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_main_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_main_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs';
+  cp-fileline  = '42';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Window';
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'MainWindow';
+        node-link = {
+          node-link-id = 'class_wpf_calculatrice_1_1_main_window';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_window';
+  cp-name   = 'Window';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'class_wpf_calculatrice_1_1_main_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+  cp-fileline  = '10';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Window';
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'MainWindow';
+        node-link = {
+          node-link-id = 'class_wpf_calculatrice_1_1_main_window';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_wpf_calculatrice_1_1_app';
+  cp-name   = 'WpfCalculatrice::App';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_application';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_system_1_1_windows_1_1_application';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_system_1_1_windows_1_1_application';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_app_1a6405d5db675d5338663195a4d12b4c9f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'InitializeComponent';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+InitializeComponent.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_app_8g_8cs_1a2e67222db1dca5be5f3731ada487dd0f';
+        sec-mem-ref-line = '64';
+        sec-mem-ref-name = 'App::Main';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_app_1a6405d5db675d5338663195a4d12b4c9f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'InitializeComponent';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.i.cs';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+InitializeComponent.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-static-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_app_1a2e67222db1dca5be5f3731ada487dd0f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Main';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+      sec-mem-desc-line = '64';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Application Entry Point.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_app_8g_8cs_1a6405d5db675d5338663195a4d12b4c9f';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'App::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_app_1a2e67222db1dca5be5f3731ada487dd0f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Main';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.i.cs';
+      sec-mem-desc-line = '64';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Application Entry Point.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_app_8g_8cs_1a6405d5db675d5338663195a4d12b4c9f';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'App::InitializeComponent';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/App.xaml.cs';
+  cp-fileline  = '10';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Interaction logic for App.xaml.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+App.
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_wpf_calculatrice_1_1_main_window';
+  cp-name   = 'WpfCalculatrice::MainWindow';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_i_notify_property_changed';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_system_1_1_windows_1_1_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_system_1_1_windows_1_1_markup_1_1_i_component_connector';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_system_1_1_windows_1_1_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'class_system_1_1_windows_1_1_markup_1_1_i_component_connector';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1aeb676574b78bda84d687fdcfd65d84a6';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'MainWindow';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '17';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialise une nouvelle instance de la classe <see cref="MainWindow"/>.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1a6405d5db675d5338663195a4d12b4c9f';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'MainWindow::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'InitializeComponent';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs';
+      sec-mem-desc-line = '91';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+InitializeComponent.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1ade19460940f9e6ec1daf1989b4da19d5';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'MainWindow::_contentLoaded';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1aeb676574b78bda84d687fdcfd65d84a6';
+        sec-mem-ref-line = '17';
+        sec-mem-ref-name = 'MainWindow::MainWindow';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'InitializeComponent';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.i.cs';
+      sec-mem-desc-line = '91';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+InitializeComponent.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1ade19460940f9e6ec1daf1989b4da19d5';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'MainWindow::_contentLoaded';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'property';
+    sec-member = {
+      sec-mem-kind = 'property';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Nb1';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '23';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad7baaaa5f23dc2528d54b4b58d58d199';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'MainWindow::butDivise_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad259823fc0fb4c205318a98b4ec06f65';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'MainWindow::butFact_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a59c968a953903eb2efdb95d3dfb7ec89';
+        sec-mem-ref-line = '51';
+        sec-mem-ref-name = 'MainWindow::butMoins_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a843f68dbd9dc4a2eed88659c91b68308';
+        sec-mem-ref-line = '59';
+        sec-mem-ref-name = 'MainWindow::butMultiplie_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a83e893ea4ecde18999310f16fcf0d35f';
+        sec-mem-ref-line = '43';
+        sec-mem-ref-name = 'MainWindow::butPlus_Click';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'property';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1aa031befa2f66065adb74f7f64646ec0b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Nb2';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '24';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad7baaaa5f23dc2528d54b4b58d58d199';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'MainWindow::butDivise_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a59c968a953903eb2efdb95d3dfb7ec89';
+        sec-mem-ref-line = '51';
+        sec-mem-ref-name = 'MainWindow::butMoins_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a843f68dbd9dc4a2eed88659c91b68308';
+        sec-mem-ref-line = '59';
+        sec-mem-ref-name = 'MainWindow::butMultiplie_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a83e893ea4ecde18999310f16fcf0d35f';
+        sec-mem-ref-line = '43';
+        sec-mem-ref-name = 'MainWindow::butPlus_Click';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'property';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Resultat';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '30';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Obtient ou dÃ©finit le rÃ©sultat de l'opÃ©ration.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad7baaaa5f23dc2528d54b4b58d58d199';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'MainWindow::butDivise_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad259823fc0fb4c205318a98b4ec06f65';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'MainWindow::butFact_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a59c968a953903eb2efdb95d3dfb7ec89';
+        sec-mem-ref-line = '51';
+        sec-mem-ref-name = 'MainWindow::butMoins_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a843f68dbd9dc4a2eed88659c91b68308';
+        sec-mem-ref-line = '59';
+        sec-mem-ref-name = 'MainWindow::butMultiplie_Click';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a83e893ea4ecde18999310f16fcf0d35f';
+        sec-mem-ref-line = '43';
+        sec-mem-ref-name = 'MainWindow::butPlus_Click';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a715f4dc547ae3df47826a1a6b3ec9403';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'OnPropertyChanged';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'name';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '98';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Notifie les abonnÃ©s qu'une propriÃ©tÃ© a changÃ©.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<param name="name">Le nom de la propriÃ©tÃ© qui a changÃ©.</param> 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1aa421d817626998e9bcafaf0d70106b7f';
+        sec-mem-ref-line = '12';
+        sec-mem-ref-name = 'MainWindow::PropertyChanged';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'butDivise_Click';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+RoutedEventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '82';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+GÃ¨re l'Ã©vÃ©nement de clic pour l'opÃ©ration de division.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_calcul_8cs_1aba97d5efa1c44a62578c1faf2dfc7ba2';
+        sec-mem-ref-line = '48';
+        sec-mem-ref-name = 'Calcul::Division';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a63625093b2a7cadf08925ef9db5c84c9';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'MainWindow::Nb1';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1aa031befa2f66065adb74f7f64646ec0b';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'MainWindow::Nb2';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a3307187d25b1736dbcdaf8638dfaeb8b';
+        sec-mem-ref-line = '31';
+        sec-mem-ref-name = 'MainWindow::Resultat';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc';
+        sec-mem-ref-line = '111';
+        sec-mem-ref-name = 'MainWindow::Connect';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1ad259823fc0fb4c205318a98b4ec06f65';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'butFact_Click';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+RoutedEventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+GÃ¨re l'Ã©vÃ©nement de clic pour l'opÃ©ration de factorielle.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_calcul_8cs_1a535c182868633726d68858cae3152931';
+        sec-mem-ref-line = '60';
+        sec-mem-ref-name = 'Calcul::Factorielle';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a63625093b2a7cadf08925ef9db5c84c9';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'MainWindow::Nb1';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a3307187d25b1736dbcdaf8638dfaeb8b';
+        sec-mem-ref-line = '31';
+        sec-mem-ref-name = 'MainWindow::Resultat';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc';
+        sec-mem-ref-line = '111';
+        sec-mem-ref-name = 'MainWindow::Connect';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'butMoins_Click';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+RoutedEventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '51';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+GÃ¨re l'Ã©vÃ©nement de clic pour l'opÃ©ration de soustraction.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a63625093b2a7cadf08925ef9db5c84c9';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'MainWindow::Nb1';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1aa031befa2f66065adb74f7f64646ec0b';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'MainWindow::Nb2';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a3307187d25b1736dbcdaf8638dfaeb8b';
+        sec-mem-ref-line = '31';
+        sec-mem-ref-name = 'MainWindow::Resultat';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_calcul_8cs_1a5580cea5b8bf995353c5337cfd2ea98d';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Calcul::Soustraction';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc';
+        sec-mem-ref-line = '111';
+        sec-mem-ref-name = 'MainWindow::Connect';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'butMultiplie_Click';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+RoutedEventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '59';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+GÃ¨re l'Ã©vÃ©nement de clic pour l'opÃ©ration de multiplication.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_calcul_8cs_1a359c20c3e7babcac610af76b9a14874f';
+        sec-mem-ref-line = '36';
+        sec-mem-ref-name = 'Calcul::Multiplication';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a63625093b2a7cadf08925ef9db5c84c9';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'MainWindow::Nb1';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1aa031befa2f66065adb74f7f64646ec0b';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'MainWindow::Nb2';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a3307187d25b1736dbcdaf8638dfaeb8b';
+        sec-mem-ref-line = '31';
+        sec-mem-ref-name = 'MainWindow::Resultat';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc';
+        sec-mem-ref-line = '111';
+        sec-mem-ref-name = 'MainWindow::Connect';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'butPlus_Click';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+RoutedEventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '43';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+GÃ¨re l'Ã©vÃ©nement de clic pour l'opÃ©ration d'addition.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_calcul_8cs_1a1de7821eed025c8319ead058b259ed7a';
+        sec-mem-ref-line = '14';
+        sec-mem-ref-name = 'Calcul::Addition';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a63625093b2a7cadf08925ef9db5c84c9';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'MainWindow::Nb1';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1aa031befa2f66065adb74f7f64646ec0b';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'MainWindow::Nb2';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a3307187d25b1736dbcdaf8638dfaeb8b';
+        sec-mem-ref-line = '31';
+        sec-mem-ref-name = 'MainWindow::Resultat';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc';
+        sec-mem-ref-line = '111';
+        sec-mem-ref-name = 'MainWindow::Connect';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void System.Windows.Markup.IComponentConnector.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Connect';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'connectionId';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'target';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs';
+      sec-mem-desc-line = '111';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad7baaaa5f23dc2528d54b4b58d58d199';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'MainWindow::butDivise_Click';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad259823fc0fb4c205318a98b4ec06f65';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'MainWindow::butFact_Click';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a59c968a953903eb2efdb95d3dfb7ec89';
+        sec-mem-ref-line = '51';
+        sec-mem-ref-name = 'MainWindow::butMoins_Click';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a843f68dbd9dc4a2eed88659c91b68308';
+        sec-mem-ref-line = '59';
+        sec-mem-ref-name = 'MainWindow::butMultiplie_Click';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a83e893ea4ecde18999310f16fcf0d35f';
+        sec-mem-ref-line = '43';
+        sec-mem-ref-name = 'MainWindow::butPlus_Click';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void System.Windows.Markup.IComponentConnector.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Connect';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'connectionId';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'target';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.i.cs';
+      sec-mem-desc-line = '111';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad7baaaa5f23dc2528d54b4b58d58d199';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'MainWindow::butDivise_Click';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1ad259823fc0fb4c205318a98b4ec06f65';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'MainWindow::butFact_Click';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a59c968a953903eb2efdb95d3dfb7ec89';
+        sec-mem-ref-line = '51';
+        sec-mem-ref-name = 'MainWindow::butMoins_Click';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a843f68dbd9dc4a2eed88659c91b68308';
+        sec-mem-ref-line = '59';
+        sec-mem-ref-name = 'MainWindow::butMultiplie_Click';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_main_window_8xaml_8cs_1a83e893ea4ecde18999310f16fcf0d35f';
+        sec-mem-ref-line = '43';
+        sec-mem-ref-name = 'MainWindow::butPlus_Click';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1ade19460940f9e6ec1daf1989b4da19d5';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_contentLoaded';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_main_window_8g_8cs_1a6405d5db675d5338663195a4d12b4c9f';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'MainWindow::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_wpf_calculatrice_1_1_main_window_1a86a4e1db4e8cd60eb37de51f37aed8c9';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'resultat';
+      sec-mem-desc-file = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+  cp-fileline  = '10';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Logique d'interaction pour la fenÃªtre principale de l'application.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+MainWindow.
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = '_calcul_8cs';
+  file-name = 'Calcul.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_calculatrice_2obj_2_debug_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs';
+  file-name = '.NETCoreApp,Version=v8.0.AssemblyAttributes.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice_2obj_2_debug_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs';
+  file-name = '.NETCoreApp,Version=v8.0.AssemblyAttributes.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_calculatrice_8_assembly_info_8cs';
+  file-name = 'Calculatrice.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/Calculatrice.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_calculatrice_8_global_usings_8g_8cs';
+  file-name = 'Calculatrice.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/Calculatrice.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_app_8xaml_8cs';
+  file-name = 'App.xaml.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/App.xaml.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_assembly_info_8cs';
+  file-name = 'AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_main_window_8xaml_8cs';
+  file-name = 'MainWindow.xaml.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_app_8g_8cs';
+  file-name = 'App.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_app_8g_8i_8cs';
+  file-name = 'App.g.i.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.i.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_main_window_8g_8cs';
+  file-name = 'MainWindow.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_main_window_8g_8i_8cs';
+  file-name = 'MainWindow.g.i.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.i.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__0tw3k12j__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_0tw3k12j_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_0tw3k12j_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__0tw3k12j__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_0tw3k12j_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_0tw3k12j_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__fcpc5uax__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_fcpc5uax_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_fcpc5uax_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__fcpc5uax__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_fcpc5uax_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_fcpc5uax_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__jmv252zr__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_jmv252zr_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_jmv252zr_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__jmv252zr__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_jmv252zr_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_jmv252zr_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__l2zcnusy__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_l2zcnusy_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_l2zcnusy_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__l2zcnusy__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_l2zcnusy_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_l2zcnusy_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__mr03fwby__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_mr03fwby_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_mr03fwby_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__mr03fwby__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_mr03fwby_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_mr03fwby_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__n4la44cd__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_n4la44cd_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_n4la44cd_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__n4la44cd__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_n4la44cd_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_n4la44cd_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__nd1wtrup__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_nd1wtrup_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_nd1wtrup_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__nd1wtrup__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_nd1wtrup_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_nd1wtrup_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__oobhidtv__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_oobhidtv_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_oobhidtv_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__oobhidtv__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_oobhidtv_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_oobhidtv_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__rriwuwpt__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_rriwuwpt_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_rriwuwpt_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__rriwuwpt__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_rriwuwpt_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_rriwuwpt_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__sptxptiu__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_sptxptiu_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_sptxptiu_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__sptxptiu__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_sptxptiu_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_sptxptiu_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__uhxupbhu__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_uhxupbhu_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_uhxupbhu_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__uhxupbhu__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_uhxupbhu_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_uhxupbhu_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__yvyotnlk__wpftmp_8_assembly_info_8cs';
+  file-name = 'WpfCalculatrice_yvyotnlk_wpftmp.AssemblyInfo.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_yvyotnlk_wpftmp.AssemblyInfo.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_wpf_calculatrice__yvyotnlk__wpftmp_8_global_usings_8g_8cs';
+  file-name = 'WpfCalculatrice_yvyotnlk_wpftmp.GlobalUsings.g.cs';
+  file-full-name  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/WpfCalculatrice_yvyotnlk_wpftmp.GlobalUsings.g.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+  namespace = {
+    ns-id   = 'namespace_calculatrice';
+    ns-name = 'Calculatrice';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs';
+  ns-fileline  = '1';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespaceglobal_1_1_system';
+    ns-name = 'global::System';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/Calculatrice.GlobalUsings.g.cs';
+  ns-fileline  = '2';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespaceglobal_1_1_system_1_1_collections_1_1_generic';
+    ns-name = 'global::System::Collections::Generic';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/Calculatrice.GlobalUsings.g.cs';
+  ns-fileline  = '3';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespaceglobal_1_1_system_1_1_linq';
+    ns-name = 'global::System::Linq';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/Calculatrice.GlobalUsings.g.cs';
+  ns-fileline  = '4';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespaceglobal_1_1_system_1_1_threading';
+    ns-name = 'global::System::Threading';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/Calculatrice.GlobalUsings.g.cs';
+  ns-fileline  = '5';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespaceglobal_1_1_system_1_1_threading_1_1_tasks';
+    ns-name = 'global::System::Threading::Tasks';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/Calculatrice.GlobalUsings.g.cs';
+  ns-fileline  = '6';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system';
+    ns-name = 'System';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs';
+  ns-fileline  = '2';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_component_model';
+    ns-name = 'System::ComponentModel';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs';
+  ns-fileline  = '2';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_configuration';
+    ns-name = 'System::Configuration';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/App.xaml.cs';
+  ns-fileline  = '1';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_data';
+    ns-name = 'System::Data';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/App.xaml.cs';
+  ns-fileline  = '2';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_diagnostics';
+    ns-name = 'System::Diagnostics';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '13';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_reflection';
+    ns-name = 'System::Reflection';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs';
+  ns-fileline  = '3';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows';
+    ns-name = 'System::Windows';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/App.xaml.cs';
+  ns-fileline  = '3';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_automation';
+    ns-name = 'System::Windows::Automation';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '15';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_controls';
+    ns-name = 'System::Windows::Controls';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '16';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_controls_1_1_primitives';
+    ns-name = 'System::Windows::Controls::Primitives';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '17';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_controls_1_1_ribbon';
+    ns-name = 'System::Windows::Controls::Ribbon';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '18';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_data';
+    ns-name = 'System::Windows::Data';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '19';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_documents';
+    ns-name = 'System::Windows::Documents';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '20';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_ink';
+    ns-name = 'System::Windows::Ink';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '21';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_input';
+    ns-name = 'System::Windows::Input';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '22';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_markup';
+    ns-name = 'System::Windows::Markup';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '23';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_media';
+    ns-name = 'System::Windows::Media';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '24';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_media_1_1_animation';
+    ns-name = 'System::Windows::Media::Animation';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '25';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_media_1_1_effects';
+    ns-name = 'System::Windows::Media::Effects';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '26';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_media_1_1_imaging';
+    ns-name = 'System::Windows::Media::Imaging';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '27';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_media_1_1_media3_d';
+    ns-name = 'System::Windows::Media::Media3D';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '28';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_media_1_1_text_formatting';
+    ns-name = 'System::Windows::Media::TextFormatting';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '29';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_navigation';
+    ns-name = 'System::Windows::Navigation';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '30';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_shapes';
+    ns-name = 'System::Windows::Shapes';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '31';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_system_1_1_windows_1_1_shell';
+    ns-name = 'System::Windows::Shell';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/App.g.cs';
+  ns-fileline  = '32';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };
+  namespace = {
+    ns-id   = 'namespace_wpf_calculatrice';
+    ns-name = 'WpfCalculatrice';
+  ns-filename  = 'P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/App.xaml.cs';
+  ns-fileline  = '5';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };

@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_wpf_calculatrice_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>WpfCalculatrice::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_wpf_calculatrice_1_1_main_window_1aa421d817626998e9bcafaf0d70106b7f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.PropertyChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="12" column="50" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a715f4dc547ae3df47826a1a6b3ec9403" compoundref="_main_window_8xaml_8cs" startline="98" endline="101">MainWindow.OnPropertyChanged</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Nb1</definition>
+        <argsstring></argsstring>
+        <name>Nb1</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.Nb1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="23" column="23" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="23" bodyend="23"/>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199" compoundref="_main_window_8xaml_8cs" startline="82" endline="92">MainWindow.butDivise_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1ad259823fc0fb4c205318a98b4ec06f65" compoundref="_main_window_8xaml_8cs" startline="67" endline="77">MainWindow.butFact_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89" compoundref="_main_window_8xaml_8cs" startline="51" endline="54">MainWindow.butMoins_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308" compoundref="_main_window_8xaml_8cs" startline="59" endline="62">MainWindow.butMultiplie_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f" compoundref="_main_window_8xaml_8cs" startline="43" endline="46">MainWindow.butPlus_Click</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_wpf_calculatrice_1_1_main_window_1aa031befa2f66065adb74f7f64646ec0b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Nb2</definition>
+        <argsstring></argsstring>
+        <name>Nb2</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.Nb2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="24" column="23" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="24" bodyend="24"/>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199" compoundref="_main_window_8xaml_8cs" startline="82" endline="92">MainWindow.butDivise_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89" compoundref="_main_window_8xaml_8cs" startline="51" endline="54">MainWindow.butMoins_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308" compoundref="_main_window_8xaml_8cs" startline="59" endline="62">MainWindow.butMultiplie_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f" compoundref="_main_window_8xaml_8cs" startline="43" endline="46">MainWindow.butPlus_Click</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Resultat</definition>
+        <argsstring></argsstring>
+        <name>Resultat</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.Resultat</qualifiedname>
+        <briefdescription>
+<para>Obtient ou définit le résultat de l&apos;opération. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="30" column="23" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="31" bodyend="38"/>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199" compoundref="_main_window_8xaml_8cs" startline="82" endline="92">MainWindow.butDivise_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1ad259823fc0fb4c205318a98b4ec06f65" compoundref="_main_window_8xaml_8cs" startline="67" endline="77">MainWindow.butFact_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89" compoundref="_main_window_8xaml_8cs" startline="51" endline="54">MainWindow.butMoins_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308" compoundref="_main_window_8xaml_8cs" startline="59" endline="62">MainWindow.butMultiplie_Click</referencedby>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f" compoundref="_main_window_8xaml_8cs" startline="43" endline="46">MainWindow.butPlus_Click</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_wpf_calculatrice_1_1_main_window_1ade19460940f9e6ec1daf1989b4da19d5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>WpfCalculatrice.MainWindow._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" line="84" column="22" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f" compoundref="_main_window_8g_8cs" startline="91" endline="103">MainWindow.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wpf_calculatrice_1_1_main_window_1a86a4e1db4e8cd60eb37de51f37aed8c9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double resultat</definition>
+        <argsstring></argsstring>
+        <name>resultat</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.resultat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="26" column="24" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_wpf_calculatrice_1_1_main_window_1a612c7ce96b7e95dc4073a94e8d5a2c1c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button butDivise</definition>
+        <argsstring></argsstring>
+        <name>butDivise</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butDivise</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" line="79" column="46" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wpf_calculatrice_1_1_main_window_1acef8b491d95e8decadb0b5fda0c56dc6" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button butFact</definition>
+        <argsstring></argsstring>
+        <name>butFact</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butFact</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" line="63" column="46" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wpf_calculatrice_1_1_main_window_1a354500cad8c0d921983bf8afb3bd6d22" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button butMoins</definition>
+        <argsstring></argsstring>
+        <name>butMoins</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butMoins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" line="55" column="46" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wpf_calculatrice_1_1_main_window_1af74f613e233b9e96beaaa7069af65954" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button butMultiplie</definition>
+        <argsstring></argsstring>
+        <name>butMultiplie</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butMultiplie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" line="71" column="46" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wpf_calculatrice_1_1_main_window_1a6d024d20909fe2593f2609b0759fa611" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button butPlus</definition>
+        <argsstring></argsstring>
+        <name>butPlus</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butPlus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" line="47" column="46" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1aeb676574b78bda84d687fdcfd65d84a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.MainWindow</qualifiedname>
+        <briefdescription>
+<para>Initialise une nouvelle instance de la classe <ref refid="class_wpf_calculatrice_1_1_main_window" kindref="compound">MainWindow</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="17" column="16" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="17" bodyend="21"/>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f" compoundref="_main_window_8g_8cs" startline="91" endline="103">MainWindow.InitializeComponent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" line="91" column="21" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" bodystart="91" bodyend="103"/>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1ade19460940f9e6ec1daf1989b4da19d5" compoundref="_main_window_8g_8cs" startline="84">MainWindow._contentLoaded</references>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1aeb676574b78bda84d687fdcfd65d84a6" compoundref="_main_window_8xaml_8cs" startline="17" endline="21">MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.i.cs" line="91" column="21" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.i.cs" bodystart="91" bodyend="103"/>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1ade19460940f9e6ec1daf1989b4da19d5" compoundref="_main_window_8g_8cs" startline="84">MainWindow._contentLoaded</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void butDivise_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>butDivise_Click</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butDivise_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Gère l&apos;événement de clic pour l&apos;opération de division. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="82" column="22" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="82" bodyend="92"/>
+        <references refid="class_calculatrice_1_1_calcul_1aba97d5efa1c44a62578c1faf2dfc7ba2" compoundref="_calcul_8cs" startline="48" endline="52">Calcul.Division</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9" compoundref="_main_window_8xaml_8cs" startline="23" endline="23">MainWindow.Nb1</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1aa031befa2f66065adb74f7f64646ec0b" compoundref="_main_window_8xaml_8cs" startline="24" endline="24">MainWindow.Nb2</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b" compoundref="_main_window_8xaml_8cs" startline="31" endline="38">MainWindow.Resultat</references>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" compoundref="_main_window_8g_8cs" startline="111" endline="161">MainWindow.Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1ad259823fc0fb4c205318a98b4ec06f65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void butFact_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>butFact_Click</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butFact_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Gère l&apos;événement de clic pour l&apos;opération de factorielle. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="67" column="22" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="67" bodyend="77"/>
+        <references refid="class_calculatrice_1_1_calcul_1a535c182868633726d68858cae3152931" compoundref="_calcul_8cs" startline="60" endline="72">Calcul.Factorielle</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9" compoundref="_main_window_8xaml_8cs" startline="23" endline="23">MainWindow.Nb1</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b" compoundref="_main_window_8xaml_8cs" startline="31" endline="38">MainWindow.Resultat</references>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" compoundref="_main_window_8g_8cs" startline="111" endline="161">MainWindow.Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void butMoins_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>butMoins_Click</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butMoins_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Gère l&apos;événement de clic pour l&apos;opération de soustraction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="51" column="22" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="51" bodyend="54"/>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9" compoundref="_main_window_8xaml_8cs" startline="23" endline="23">MainWindow.Nb1</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1aa031befa2f66065adb74f7f64646ec0b" compoundref="_main_window_8xaml_8cs" startline="24" endline="24">MainWindow.Nb2</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b" compoundref="_main_window_8xaml_8cs" startline="31" endline="38">MainWindow.Resultat</references>
+        <references refid="class_calculatrice_1_1_calcul_1a5580cea5b8bf995353c5337cfd2ea98d" compoundref="_calcul_8cs" startline="25" endline="28">Calcul.Soustraction</references>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" compoundref="_main_window_8g_8cs" startline="111" endline="161">MainWindow.Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void butMultiplie_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>butMultiplie_Click</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butMultiplie_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Gère l&apos;événement de clic pour l&apos;opération de multiplication. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="59" column="22" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="59" bodyend="62"/>
+        <references refid="class_calculatrice_1_1_calcul_1a359c20c3e7babcac610af76b9a14874f" compoundref="_calcul_8cs" startline="36" endline="39">Calcul.Multiplication</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9" compoundref="_main_window_8xaml_8cs" startline="23" endline="23">MainWindow.Nb1</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1aa031befa2f66065adb74f7f64646ec0b" compoundref="_main_window_8xaml_8cs" startline="24" endline="24">MainWindow.Nb2</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b" compoundref="_main_window_8xaml_8cs" startline="31" endline="38">MainWindow.Resultat</references>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" compoundref="_main_window_8g_8cs" startline="111" endline="161">MainWindow.Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void butPlus_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>butPlus_Click</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.butPlus_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Gère l&apos;événement de clic pour l&apos;opération d&apos;addition. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="43" column="22" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="43" bodyend="46"/>
+        <references refid="class_calculatrice_1_1_calcul_1a1de7821eed025c8319ead058b259ed7a" compoundref="_calcul_8cs" startline="14" endline="17">Calcul.Addition</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9" compoundref="_main_window_8xaml_8cs" startline="23" endline="23">MainWindow.Nb1</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1aa031befa2f66065adb74f7f64646ec0b" compoundref="_main_window_8xaml_8cs" startline="24" endline="24">MainWindow.Nb2</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b" compoundref="_main_window_8xaml_8cs" startline="31" endline="38">MainWindow.Resultat</references>
+        <referencedby refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" compoundref="_main_window_8g_8cs" startline="111" endline="161">MainWindow.Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" line="111" column="52" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.cs" bodystart="111" bodyend="161"/>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199" compoundref="_main_window_8xaml_8cs" startline="82" endline="92">MainWindow.butDivise_Click</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1ad259823fc0fb4c205318a98b4ec06f65" compoundref="_main_window_8xaml_8cs" startline="67" endline="77">MainWindow.butFact_Click</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89" compoundref="_main_window_8xaml_8cs" startline="51" endline="54">MainWindow.butMoins_Click</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308" compoundref="_main_window_8xaml_8cs" startline="59" endline="62">MainWindow.butMultiplie_Click</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f" compoundref="_main_window_8xaml_8cs" startline="43" endline="46">MainWindow.butPlus_Click</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.i.cs" line="111" column="52" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.i.cs" bodystart="111" bodyend="161"/>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199" compoundref="_main_window_8xaml_8cs" startline="82" endline="92">MainWindow.butDivise_Click</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1ad259823fc0fb4c205318a98b4ec06f65" compoundref="_main_window_8xaml_8cs" startline="67" endline="77">MainWindow.butFact_Click</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89" compoundref="_main_window_8xaml_8cs" startline="51" endline="54">MainWindow.butMoins_Click</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308" compoundref="_main_window_8xaml_8cs" startline="59" endline="62">MainWindow.butMultiplie_Click</references>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f" compoundref="_main_window_8xaml_8cs" startline="43" endline="46">MainWindow.butPlus_Click</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_wpf_calculatrice_1_1_main_window_1a715f4dc547ae3df47826a1a6b3ec9403" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnPropertyChanged</definition>
+        <argsstring>(string name)</argsstring>
+        <name>OnPropertyChanged</name>
+        <qualifiedname>WpfCalculatrice.MainWindow.OnPropertyChanged</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Notifie les abonnés qu&apos;une propriété a changé. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Le nom de la propriété qui a changé.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="98" column="24" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" bodystart="98" bodyend="101"/>
+        <references refid="class_wpf_calculatrice_1_1_main_window_1aa421d817626998e9bcafaf0d70106b7f" compoundref="_main_window_8xaml_8cs" startline="12">MainWindow.PropertyChanged</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Logique d&apos;interaction pour la fenêtre principale de l&apos;application. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_wpf_calculatrice_1_1_main_window" kindref="compound">MainWindow</ref>. </para>
+    </detaileddescription>
+    <location file="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/MainWindow.xaml.cs" line="10" column="19" bodyfile="P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows/MainWindow.g.i.cs" bodystart="42" bodyend="162"/>
+    <listofallmembers>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1ade19460940f9e6ec1daf1989b4da19d5" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>_contentLoaded</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a612c7ce96b7e95dc4073a94e8d5a2c1c" prot="package" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butDivise</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butDivise_Click</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1acef8b491d95e8decadb0b5fda0c56dc6" prot="package" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butFact</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1ad259823fc0fb4c205318a98b4ec06f65" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butFact_Click</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a354500cad8c0d921983bf8afb3bd6d22" prot="package" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butMoins</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butMoins_Click</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1af74f613e233b9e96beaaa7069af65954" prot="package" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butMultiplie</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butMultiplie_Click</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a6d024d20909fe2593f2609b0759fa611" prot="package" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butPlus</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>butPlus_Click</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f" prot="public" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f" prot="public" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1aeb676574b78bda84d687fdcfd65d84a6" prot="public" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9" prot="public" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>Nb1</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1aa031befa2f66065adb74f7f64646ec0b" prot="public" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>Nb2</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a715f4dc547ae3df47826a1a6b3ec9403" prot="protected" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1aa421d817626998e9bcafaf0d70106b7f" prot="public" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>PropertyChanged</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b" prot="public" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>Resultat</name></member>
+      <member refid="class_wpf_calculatrice_1_1_main_window_1a86a4e1db4e8cd60eb37de51f37aed8c9" prot="private" virt="non-virtual"><scope>WpfCalculatrice::MainWindow</scope><name>resultat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

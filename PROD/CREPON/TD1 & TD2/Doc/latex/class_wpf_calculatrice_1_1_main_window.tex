@@ -1,0 +1,484 @@
+\doxysection{Main\+Window}
+\hypertarget{class_wpf_calculatrice_1_1_main_window}{}\label{class_wpf_calculatrice_1_1_main_window}\index{MainWindow@{MainWindow}}
+
+
+Logique d\textquotesingle{}interaction pour la fenêtre principale de l\textquotesingle{}application.  
+
+
+
+
+Inherits Window, INotify\+Property\+Changed, Window, IComponent\+Connector, Window, and IComponent\+Connector.
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aeb676574b78bda84d687fdcfd65d84a6}{Main\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Initialise une nouvelle instance de la classe \doxylink{class_wpf_calculatrice_1_1_main_window}{Main\+Window}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a6405d5db675d5338663195a4d12b4c9f}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a6405d5db675d5338663195a4d12b4c9f}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a715f4dc547ae3df47826a1a6b3ec9403}{On\+Property\+Changed}} (string name)
+\begin{DoxyCompactList}\small\item\em Notifie les abonnés qu\textquotesingle{}une propriété a changé. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+System.\+Windows.\+Controls.\+Button \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a612c7ce96b7e95dc4073a94e8d5a2c1c}{but\+Divise}}
+\item 
+System.\+Windows.\+Controls.\+Button \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_acef8b491d95e8decadb0b5fda0c56dc6}{but\+Fact}}
+\item 
+System.\+Windows.\+Controls.\+Button \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a354500cad8c0d921983bf8afb3bd6d22}{but\+Moins}}
+\item 
+System.\+Windows.\+Controls.\+Button \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_af74f613e233b9e96beaaa7069af65954}{but\+Multiplie}}
+\item 
+System.\+Windows.\+Controls.\+Button \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a6d024d20909fe2593f2609b0759fa611}{but\+Plus}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}{Nb1}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b}{Nb2}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}{Resultat}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtient ou définit le résultat de l\textquotesingle{}opération. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Property\+Changed\+Event\+Handler \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_aa421d817626998e9bcafaf0d70106b7f}{Property\+Changed}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_ad7baaaa5f23dc2528d54b4b58d58d199}{but\+Divise\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération de division. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_ad259823fc0fb4c205318a98b4ec06f65}{but\+Fact\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération de factorielle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a59c968a953903eb2efdb95d3dfb7ec89}{but\+Moins\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération de soustraction. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a843f68dbd9dc4a2eed88659c91b68308}{but\+Multiplie\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération de multiplication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a83e893ea4ecde18999310f16fcf0d35f}{but\+Plus\+\_\+\+Click}} (object sender, Routed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération d\textquotesingle{}addition. \end{DoxyCompactList}\item 
+void System.\+Windows.\+Markup.\+IComponent\+Connector. \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a2bd5f1cbfa7c91f15d6f60c97a50ebfc}{Connect}} (int connection\+Id, object target)
+\item 
+void System.\+Windows.\+Markup.\+IComponent\+Connector. \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a2bd5f1cbfa7c91f15d6f60c97a50ebfc}{Connect}} (int connection\+Id, object target)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_ade19460940f9e6ec1daf1989b4da19d5}{\+\_\+content\+Loaded}}
+\item 
+double \mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window_a86a4e1db4e8cd60eb37de51f37aed8c9}{resultat}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Logique d\textquotesingle{}interaction pour la fenêtre principale de l\textquotesingle{}application. 
+
+\doxylink{class_wpf_calculatrice_1_1_main_window}{Main\+Window}. 
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8i_8cs_source_l00042}{42}} of file \mbox{\hyperlink{_main_window_8g_8i_8cs_source}{Main\+Window.\+g.\+i.\+cs}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_aeb676574b78bda84d687fdcfd65d84a6}\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{MainWindow()}{MainWindow()}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_aeb676574b78bda84d687fdcfd65d84a6} 
+\mbox{\hyperlink{class_wpf_calculatrice_1_1_main_window}{Main\+Window}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initialise une nouvelle instance de la classe \doxylink{class_wpf_calculatrice_1_1_main_window}{Main\+Window}. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{class_wpf_calculatrice_1_1_main_window_aeb676574b78bda84d687fdcfd65d84a6_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_ad7baaaa5f23dc2528d54b4b58d58d199}\index{MainWindow@{MainWindow}!butDivise\_Click@{butDivise\_Click}}
+\index{butDivise\_Click@{butDivise\_Click}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butDivise\_Click()}{butDivise\_Click()}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_ad7baaaa5f23dc2528d54b4b58d58d199} 
+void but\+Divise\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Routed\+Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération de division. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00082}{82}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_wpf_calculatrice_1_1_main_window_ad7baaaa5f23dc2528d54b4b58d58d199_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_wpf_calculatrice_1_1_main_window_ad7baaaa5f23dc2528d54b4b58d58d199_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_ad259823fc0fb4c205318a98b4ec06f65}\index{MainWindow@{MainWindow}!butFact\_Click@{butFact\_Click}}
+\index{butFact\_Click@{butFact\_Click}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butFact\_Click()}{butFact\_Click()}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_ad259823fc0fb4c205318a98b4ec06f65} 
+void but\+Fact\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Routed\+Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération de factorielle. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00067}{67}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_wpf_calculatrice_1_1_main_window_ad259823fc0fb4c205318a98b4ec06f65_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{class_wpf_calculatrice_1_1_main_window_ad259823fc0fb4c205318a98b4ec06f65_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a59c968a953903eb2efdb95d3dfb7ec89}\index{MainWindow@{MainWindow}!butMoins\_Click@{butMoins\_Click}}
+\index{butMoins\_Click@{butMoins\_Click}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butMoins\_Click()}{butMoins\_Click()}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a59c968a953903eb2efdb95d3dfb7ec89} 
+void but\+Moins\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Routed\+Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération de soustraction. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00051}{51}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_wpf_calculatrice_1_1_main_window_a59c968a953903eb2efdb95d3dfb7ec89_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_wpf_calculatrice_1_1_main_window_a59c968a953903eb2efdb95d3dfb7ec89_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a843f68dbd9dc4a2eed88659c91b68308}\index{MainWindow@{MainWindow}!butMultiplie\_Click@{butMultiplie\_Click}}
+\index{butMultiplie\_Click@{butMultiplie\_Click}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butMultiplie\_Click()}{butMultiplie\_Click()}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a843f68dbd9dc4a2eed88659c91b68308} 
+void but\+Multiplie\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Routed\+Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération de multiplication. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00059}{59}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_wpf_calculatrice_1_1_main_window_a843f68dbd9dc4a2eed88659c91b68308_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{class_wpf_calculatrice_1_1_main_window_a843f68dbd9dc4a2eed88659c91b68308_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a83e893ea4ecde18999310f16fcf0d35f}\index{MainWindow@{MainWindow}!butPlus\_Click@{butPlus\_Click}}
+\index{butPlus\_Click@{butPlus\_Click}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butPlus\_Click()}{butPlus\_Click()}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a83e893ea4ecde18999310f16fcf0d35f} 
+void but\+Plus\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Routed\+Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gère l\textquotesingle{}événement de clic pour l\textquotesingle{}opération d\textquotesingle{}addition. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00043}{43}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_wpf_calculatrice_1_1_main_window_a83e893ea4ecde18999310f16fcf0d35f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{class_wpf_calculatrice_1_1_main_window_a83e893ea4ecde18999310f16fcf0d35f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a2bd5f1cbfa7c91f15d6f60c97a50ebfc}\index{MainWindow@{MainWindow}!Connect@{Connect}}
+\index{Connect@{Connect}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{Connect()}{Connect()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a2bd5f1cbfa7c91f15d6f60c97a50ebfc} 
+void System.\+Windows.\+Markup.\+IComponent\+Connector. Connect (\begin{DoxyParamCaption}\item[{int}]{connection\+Id}{, }\item[{object}]{target}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8cs_source_l00111}{111}} of file \mbox{\hyperlink{_main_window_8g_8cs_source}{Main\+Window.\+g.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_wpf_calculatrice_1_1_main_window_a2bd5f1cbfa7c91f15d6f60c97a50ebfc_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a2bd5f1cbfa7c91f15d6f60c97a50ebfc}\index{MainWindow@{MainWindow}!Connect@{Connect}}
+\index{Connect@{Connect}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{Connect()}{Connect()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a2bd5f1cbfa7c91f15d6f60c97a50ebfc} 
+void System.\+Windows.\+Markup.\+IComponent\+Connector. Connect (\begin{DoxyParamCaption}\item[{int}]{connection\+Id}{, }\item[{object}]{target}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8i_8cs_source_l00111}{111}} of file \mbox{\hyperlink{_main_window_8g_8i_8cs_source}{Main\+Window.\+g.\+i.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_wpf_calculatrice_1_1_main_window_a2bd5f1cbfa7c91f15d6f60c97a50ebfc_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a6405d5db675d5338663195a4d12b4c9f}\index{MainWindow@{MainWindow}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a6405d5db675d5338663195a4d12b4c9f} 
+void Initialize\+Component (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initialize\+Component. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8cs_source_l00091}{91}} of file \mbox{\hyperlink{_main_window_8g_8cs_source}{Main\+Window.\+g.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{class_wpf_calculatrice_1_1_main_window_a6405d5db675d5338663195a4d12b4c9f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a6405d5db675d5338663195a4d12b4c9f}\index{MainWindow@{MainWindow}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a6405d5db675d5338663195a4d12b4c9f} 
+void Initialize\+Component (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initialize\+Component. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8i_8cs_source_l00091}{91}} of file \mbox{\hyperlink{_main_window_8g_8i_8cs_source}{Main\+Window.\+g.\+i.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a715f4dc547ae3df47826a1a6b3ec9403}\index{MainWindow@{MainWindow}!OnPropertyChanged@{OnPropertyChanged}}
+\index{OnPropertyChanged@{OnPropertyChanged}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{OnPropertyChanged()}{OnPropertyChanged()}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a715f4dc547ae3df47826a1a6b3ec9403} 
+void On\+Property\+Changed (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Notifie les abonnés qu\textquotesingle{}une propriété a changé. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Le nom de la propriété qui a changé.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00098}{98}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_ade19460940f9e6ec1daf1989b4da19d5}\index{MainWindow@{MainWindow}!\_contentLoaded@{\_contentLoaded}}
+\index{\_contentLoaded@{\_contentLoaded}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{\_contentLoaded}{\_contentLoaded}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_ade19460940f9e6ec1daf1989b4da19d5} 
+bool \+\_\+content\+Loaded\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8cs_source_l00084}{84}} of file \mbox{\hyperlink{_main_window_8g_8cs_source}{Main\+Window.\+g.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a612c7ce96b7e95dc4073a94e8d5a2c1c}\index{MainWindow@{MainWindow}!butDivise@{butDivise}}
+\index{butDivise@{butDivise}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butDivise}{butDivise}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a612c7ce96b7e95dc4073a94e8d5a2c1c} 
+System Windows Controls Button but\+Divise\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8cs_source_l00079}{79}} of file \mbox{\hyperlink{_main_window_8g_8cs_source}{Main\+Window.\+g.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_acef8b491d95e8decadb0b5fda0c56dc6}\index{MainWindow@{MainWindow}!butFact@{butFact}}
+\index{butFact@{butFact}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butFact}{butFact}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_acef8b491d95e8decadb0b5fda0c56dc6} 
+System Windows Controls Button but\+Fact\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8cs_source_l00063}{63}} of file \mbox{\hyperlink{_main_window_8g_8cs_source}{Main\+Window.\+g.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a354500cad8c0d921983bf8afb3bd6d22}\index{MainWindow@{MainWindow}!butMoins@{butMoins}}
+\index{butMoins@{butMoins}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butMoins}{butMoins}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a354500cad8c0d921983bf8afb3bd6d22} 
+System Windows Controls Button but\+Moins\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8cs_source_l00055}{55}} of file \mbox{\hyperlink{_main_window_8g_8cs_source}{Main\+Window.\+g.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_af74f613e233b9e96beaaa7069af65954}\index{MainWindow@{MainWindow}!butMultiplie@{butMultiplie}}
+\index{butMultiplie@{butMultiplie}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butMultiplie}{butMultiplie}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_af74f613e233b9e96beaaa7069af65954} 
+System Windows Controls Button but\+Multiplie\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8cs_source_l00071}{71}} of file \mbox{\hyperlink{_main_window_8g_8cs_source}{Main\+Window.\+g.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a6d024d20909fe2593f2609b0759fa611}\index{MainWindow@{MainWindow}!butPlus@{butPlus}}
+\index{butPlus@{butPlus}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{butPlus}{butPlus}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a6d024d20909fe2593f2609b0759fa611} 
+System Windows Controls Button but\+Plus\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8g_8cs_source_l00047}{47}} of file \mbox{\hyperlink{_main_window_8g_8cs_source}{Main\+Window.\+g.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a86a4e1db4e8cd60eb37de51f37aed8c9}\index{MainWindow@{MainWindow}!resultat@{resultat}}
+\index{resultat@{resultat}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{resultat}{resultat}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a86a4e1db4e8cd60eb37de51f37aed8c9} 
+double resultat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9}\index{MainWindow@{MainWindow}!Nb1@{Nb1}}
+\index{Nb1@{Nb1}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{Nb1}{Nb1}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a63625093b2a7cadf08925ef9db5c84c9} 
+double Nb1\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b}\index{MainWindow@{MainWindow}!Nb2@{Nb2}}
+\index{Nb2@{Nb2}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{Nb2}{Nb2}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_aa031befa2f66065adb74f7f64646ec0b} 
+double Nb2\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00024}{24}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b}\index{MainWindow@{MainWindow}!Resultat@{Resultat}}
+\index{Resultat@{Resultat}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{Resultat}{Resultat}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_a3307187d25b1736dbcdaf8638dfaeb8b} 
+double Resultat\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtient ou définit le résultat de l\textquotesingle{}opération. 
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00030}{30}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+
+
+\doxysubsection{Event Documentation}
+\Hypertarget{class_wpf_calculatrice_1_1_main_window_aa421d817626998e9bcafaf0d70106b7f}\index{MainWindow@{MainWindow}!PropertyChanged@{PropertyChanged}}
+\index{PropertyChanged@{PropertyChanged}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{PropertyChanged}{PropertyChanged}}
+{\footnotesize\ttfamily \label{class_wpf_calculatrice_1_1_main_window_aa421d817626998e9bcafaf0d70106b7f} 
+Property\+Changed\+Event\+Handler Property\+Changed}
+
+
+
+Definition at line \mbox{\hyperlink{_main_window_8xaml_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_main_window_8xaml_8cs_source}{Main\+Window.\+xaml.\+cs}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+INFO2/\+S3/\+R3.\+04/\+TD1/\+Wpf\+Calculatrice/\+Wpf\+Calculatrice/\mbox{\hyperlink{_main_window_8xaml_8cs}{Main\+Window.\+xaml.\+cs}}\item 
+P\+:/\+INFO2/\+S3/\+R3.\+04/\+TD1/\+Wpf\+Calculatrice/\+Wpf\+Calculatrice/obj/\+Debug/net8.\+0-\/windows/\mbox{\hyperlink{_main_window_8g_8cs}{Main\+Window.\+g.\+cs}}\item 
+P\+:/\+INFO2/\+S3/\+R3.\+04/\+TD1/\+Wpf\+Calculatrice/\+Wpf\+Calculatrice/obj/\+Debug/net8.\+0-\/windows/\mbox{\hyperlink{_main_window_8g_8i_8cs}{Main\+Window.\+g.\+i.\+cs}}\end{DoxyCompactItemize}

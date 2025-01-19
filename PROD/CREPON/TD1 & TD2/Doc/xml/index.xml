@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.11.0" xml:lang="en-US">
+  <compound refid="class_calculatrice_1_1_calcul" kind="class"><name>Calculatrice::Calcul</name>
+    <member refid="class_calculatrice_1_1_calcul_1a1de7821eed025c8319ead058b259ed7a" kind="function"><name>Addition</name></member>
+    <member refid="class_calculatrice_1_1_calcul_1aba97d5efa1c44a62578c1faf2dfc7ba2" kind="function"><name>Division</name></member>
+    <member refid="class_calculatrice_1_1_calcul_1a535c182868633726d68858cae3152931" kind="function"><name>Factorielle</name></member>
+    <member refid="class_calculatrice_1_1_calcul_1a359c20c3e7babcac610af76b9a14874f" kind="function"><name>Multiplication</name></member>
+    <member refid="class_calculatrice_1_1_calcul_1a5580cea5b8bf995353c5337cfd2ea98d" kind="function"><name>Soustraction</name></member>
+  </compound>
+  <compound refid="class_wpf_calculatrice_1_1_app" kind="class"><name>WpfCalculatrice::App</name>
+    <member refid="class_wpf_calculatrice_1_1_app_1a6405d5db675d5338663195a4d12b4c9f" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_wpf_calculatrice_1_1_app_1a6405d5db675d5338663195a4d12b4c9f" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_wpf_calculatrice_1_1_app_1a2e67222db1dca5be5f3731ada487dd0f" kind="function"><name>Main</name></member>
+    <member refid="class_wpf_calculatrice_1_1_app_1a2e67222db1dca5be5f3731ada487dd0f" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_wpf_calculatrice_1_1_main_window" kind="class"><name>WpfCalculatrice::MainWindow</name>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1aa421d817626998e9bcafaf0d70106b7f" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a63625093b2a7cadf08925ef9db5c84c9" kind="property"><name>Nb1</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1aa031befa2f66065adb74f7f64646ec0b" kind="property"><name>Nb2</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a3307187d25b1736dbcdaf8638dfaeb8b" kind="property"><name>Resultat</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1ade19460940f9e6ec1daf1989b4da19d5" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a86a4e1db4e8cd60eb37de51f37aed8c9" kind="variable"><name>resultat</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a612c7ce96b7e95dc4073a94e8d5a2c1c" kind="variable"><name>butDivise</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1acef8b491d95e8decadb0b5fda0c56dc6" kind="variable"><name>butFact</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a354500cad8c0d921983bf8afb3bd6d22" kind="variable"><name>butMoins</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1af74f613e233b9e96beaaa7069af65954" kind="variable"><name>butMultiplie</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a6d024d20909fe2593f2609b0759fa611" kind="variable"><name>butPlus</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1aeb676574b78bda84d687fdcfd65d84a6" kind="function"><name>MainWindow</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a6405d5db675d5338663195a4d12b4c9f" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1ad7baaaa5f23dc2528d54b4b58d58d199" kind="function"><name>butDivise_Click</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1ad259823fc0fb4c205318a98b4ec06f65" kind="function"><name>butFact_Click</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a59c968a953903eb2efdb95d3dfb7ec89" kind="function"><name>butMoins_Click</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a843f68dbd9dc4a2eed88659c91b68308" kind="function"><name>butMultiplie_Click</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a83e893ea4ecde18999310f16fcf0d35f" kind="function"><name>butPlus_Click</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" kind="function"><name>Connect</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a2bd5f1cbfa7c91f15d6f60c97a50ebfc" kind="function"><name>Connect</name></member>
+    <member refid="class_wpf_calculatrice_1_1_main_window_1a715f4dc547ae3df47826a1a6b3ec9403" kind="function"><name>OnPropertyChanged</name></member>
+  </compound>
+  <compound refid="namespace_calculatrice" kind="namespace"><name>Calculatrice</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_ribbon" kind="namespace"><name>System::Windows::Controls::Ribbon</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="namespace_wpf_calculatrice" kind="namespace"><name>WpfCalculatrice</name>
+  </compound>
+  <compound refid="_calcul_8cs" kind="file"><name>Calcul.cs</name>
+  </compound>
+  <compound refid="_calculatrice_2obj_2_debug_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice_2obj_2_debug_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_calculatrice_8_assembly_info_8cs" kind="file"><name>Calculatrice.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_calculatrice_8_global_usings_8g_8cs" kind="file"><name>Calculatrice.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__0tw3k12j__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_0tw3k12j_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__0tw3k12j__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_0tw3k12j_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__fcpc5uax__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_fcpc5uax_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__fcpc5uax__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_fcpc5uax_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__jmv252zr__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_jmv252zr_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__jmv252zr__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_jmv252zr_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__l2zcnusy__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_l2zcnusy_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__l2zcnusy__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_l2zcnusy_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__mr03fwby__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_mr03fwby_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__mr03fwby__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_mr03fwby_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__n4la44cd__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_n4la44cd_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__n4la44cd__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_n4la44cd_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__nd1wtrup__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_nd1wtrup_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__nd1wtrup__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_nd1wtrup_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__oobhidtv__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_oobhidtv_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__oobhidtv__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_oobhidtv_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__rriwuwpt__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_rriwuwpt_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__rriwuwpt__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_rriwuwpt_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__sptxptiu__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_sptxptiu_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__sptxptiu__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_sptxptiu_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__uhxupbhu__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_uhxupbhu_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__uhxupbhu__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_uhxupbhu_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__yvyotnlk__wpftmp_8_assembly_info_8cs" kind="file"><name>WpfCalculatrice_yvyotnlk_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_wpf_calculatrice__yvyotnlk__wpftmp_8_global_usings_8g_8cs" kind="file"><name>WpfCalculatrice_yvyotnlk_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="dir_2cdba2c88f4e0f8c0a7e08f87de6ea51" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice</name>
+  </compound>
+  <compound refid="dir_b5c0634480d7356fa8a6df876222dcc0" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug</name>
+  </compound>
+  <compound refid="dir_788df89b304d63971a99ca47d9a5f39f" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug</name>
+  </compound>
+  <compound refid="dir_9c22871ae48aadc8c4075a52d5018022" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj/Debug/net8.0-windows</name>
+  </compound>
+  <compound refid="dir_9606b92d3dff5516776a86985e0b6d06" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj/Debug/net8.0-windows</name>
+  </compound>
+  <compound refid="dir_fb5555e8914ef75b3894c53d7320d774" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/obj</name>
+  </compound>
+  <compound refid="dir_03f2e59fc74148e04f418dbdcffe8572" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice/obj</name>
+  </compound>
+  <compound refid="dir_5639a8c15a14776ac830e11744c624c6" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice</name>
+  </compound>
+  <compound refid="dir_9c2d8df2272e0b2d7935c86d3c313edd" kind="dir"><name>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/WpfCalculatrice</name>
+  </compound>
+</doxygenindex>

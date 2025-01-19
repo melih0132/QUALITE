@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__calcul_8cs_source" xml:lang="en-US">
+<title>Calcul.cs</title>
+<indexterm><primary>P:/INFO2/S3/R3.04/TD1/WpfCalculatrice/Calculatrice/Calcul.cs</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__calcul_8cs_source_1l00001"/><link linkend="_namespace_calculatrice">00001</link> <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_calculatrice">Calculatrice</link>
+<anchor xml:id="__calcul_8cs_source_1l00002"/>00002 {
+<anchor xml:id="__calcul_8cs_source_1l00006"/><link linkend="_class_calculatrice_1_1_calcul">00006</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_class_calculatrice_1_1_calcul">Calcul</link>
+<anchor xml:id="__calcul_8cs_source_1l00007"/>00007 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__calcul_8cs_source_1l00014"/><link linkend="_class_calculatrice_1_1_calcul_1a1de7821eed025c8319ead058b259ed7a">00014</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">double</emphasis>&#32;<link linkend="_class_calculatrice_1_1_calcul_1a1de7821eed025c8319ead058b259ed7a">Addition</link>(<emphasis role="keywordtype">double</emphasis>&#32;a,&#32;<emphasis role="keywordtype">double</emphasis>&#32;b)
+<anchor xml:id="__calcul_8cs_source_1l00015"/>00015 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calcul_8cs_source_1l00016"/>00016 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;a&#32;+&#32;b;
+<anchor xml:id="__calcul_8cs_source_1l00017"/>00017 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calcul_8cs_source_1l00018"/>00018 
+<anchor xml:id="__calcul_8cs_source_1l00025"/><link linkend="_class_calculatrice_1_1_calcul_1a5580cea5b8bf995353c5337cfd2ea98d">00025</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">double</emphasis>&#32;<link linkend="_class_calculatrice_1_1_calcul_1a5580cea5b8bf995353c5337cfd2ea98d">Soustraction</link>(<emphasis role="keywordtype">double</emphasis>&#32;a,&#32;<emphasis role="keywordtype">double</emphasis>&#32;b)
+<anchor xml:id="__calcul_8cs_source_1l00026"/>00026 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calcul_8cs_source_1l00027"/>00027 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;a&#32;-&#32;b;
+<anchor xml:id="__calcul_8cs_source_1l00028"/>00028 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calcul_8cs_source_1l00029"/>00029 
+<anchor xml:id="__calcul_8cs_source_1l00036"/><link linkend="_class_calculatrice_1_1_calcul_1a359c20c3e7babcac610af76b9a14874f">00036</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">double</emphasis>&#32;<link linkend="_class_calculatrice_1_1_calcul_1a359c20c3e7babcac610af76b9a14874f">Multiplication</link>(<emphasis role="keywordtype">double</emphasis>&#32;a,&#32;<emphasis role="keywordtype">double</emphasis>&#32;b)
+<anchor xml:id="__calcul_8cs_source_1l00037"/>00037 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calcul_8cs_source_1l00038"/>00038 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;a&#32;*&#32;b;
+<anchor xml:id="__calcul_8cs_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calcul_8cs_source_1l00040"/>00040 
+<anchor xml:id="__calcul_8cs_source_1l00048"/><link linkend="_class_calculatrice_1_1_calcul_1aba97d5efa1c44a62578c1faf2dfc7ba2">00048</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">double</emphasis>&#32;<link linkend="_class_calculatrice_1_1_calcul_1aba97d5efa1c44a62578c1faf2dfc7ba2">Division</link>(<emphasis role="keywordtype">double</emphasis>&#32;a,&#32;<emphasis role="keywordtype">double</emphasis>&#32;b)
+<anchor xml:id="__calcul_8cs_source_1l00049"/>00049 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calcul_8cs_source_1l00050"/>00050 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(b&#32;==&#32;0)&#32;<emphasis role="keywordflow">throw</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;DivideByZeroException(<emphasis role="stringliteral">&quot;Impossible&#32;de&#32;diviser&#32;par&#32;0.&quot;</emphasis>);
+<anchor xml:id="__calcul_8cs_source_1l00051"/>00051 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;a&#32;/&#32;b;
+<anchor xml:id="__calcul_8cs_source_1l00052"/>00052 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calcul_8cs_source_1l00053"/>00053 
+<anchor xml:id="__calcul_8cs_source_1l00060"/><link linkend="_class_calculatrice_1_1_calcul_1a535c182868633726d68858cae3152931">00060</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">double</emphasis>&#32;<link linkend="_class_calculatrice_1_1_calcul_1a535c182868633726d68858cae3152931">Factorielle</link>(<emphasis role="keywordtype">double</emphasis>&#32;a)
+<anchor xml:id="__calcul_8cs_source_1l00061"/>00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calcul_8cs_source_1l00062"/>00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(a&#32;&lt;&#32;0)&#32;<emphasis role="keywordflow">throw</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;ArgumentException(<emphasis role="stringliteral">&quot;Le&#32;nombre&#32;doit&#32;être&#32;supérieur&#32;ou&#32;égal&#32;à&#32;0.&quot;</emphasis>);
+<anchor xml:id="__calcul_8cs_source_1l00063"/>00063 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(a&#32;!=&#32;(<emphasis role="keywordtype">int</emphasis>)a)&#32;<emphasis role="keywordflow">throw</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;ArgumentException(<emphasis role="stringliteral">&quot;Le&#32;nombre&#32;doit&#32;être&#32;un&#32;entier.&quot;</emphasis>);
+<anchor xml:id="__calcul_8cs_source_1l00064"/>00064 
+<anchor xml:id="__calcul_8cs_source_1l00065"/>00065 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;res&#32;=&#32;1;
+<anchor xml:id="__calcul_8cs_source_1l00066"/>00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">for</emphasis>&#32;(<emphasis role="keywordtype">int</emphasis>&#32;i&#32;=&#32;1;&#32;i&#32;&lt;=&#32;a;&#32;i++)
+<anchor xml:id="__calcul_8cs_source_1l00067"/>00067 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__calcul_8cs_source_1l00068"/>00068 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;res&#32;*=&#32;i;
+<anchor xml:id="__calcul_8cs_source_1l00069"/>00069 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calcul_8cs_source_1l00070"/>00070 
+<anchor xml:id="__calcul_8cs_source_1l00071"/>00071 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;res;
+<anchor xml:id="__calcul_8cs_source_1l00072"/>00072 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__calcul_8cs_source_1l00073"/>00073 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__calcul_8cs_source_1l00074"/>00074 }
+</programlisting></section>
