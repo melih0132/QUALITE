@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfVirement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c56695f9b470b07a4222efef2a575f692ca11e10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed3bf0cea5f11a5a48721a782f5f008720630bb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfVirement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfVirement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,7 +12,7 @@ namespace DataLayer // A MODIFIER SI VOTRE PROJET A UN AUTRE NOM
     {
         private static DataAccess _instance;
         static readonly object instanceLock = new object();
-        private DataAccess objCalcul;
+
         private DataAccess()
         {
 
@@ -33,6 +33,7 @@ namespace DataLayer // A MODIFIER SI VOTRE PROJET A UN AUTRE NOM
                 return _instance;
             }
         }
+
         public NpgsqlConnection? NpgSQLConnect { get; set; }
 
         /// <summary>

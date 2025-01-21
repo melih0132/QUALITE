@@ -59,7 +59,7 @@ namespace WpfComptesBancaires {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfComptesBancaires;component/wpfcomptesbancaires/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfComptesBancaires;V1.0.0.0;component/wpfcomptesbancaires/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\WpfComptesBancaires\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

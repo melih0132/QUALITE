@@ -69,7 +69,7 @@ namespace WpfVirementMVVM.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfVirementMVVM;component/views/virementview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfVirementMVVM;V1.0.0.0;component/views/virementview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\VirementView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

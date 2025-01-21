@@ -69,7 +69,7 @@ namespace WpfVirement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfVirement;component/recherchevirement.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfVirement;V1.0.0.0;component/recherchevirement.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RechercheVirement.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

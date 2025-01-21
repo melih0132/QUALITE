@@ -68,6 +68,7 @@ namespace BusinessLayer
 
             }
         }
+
         public Compte GetCompte(int id)
         {
             try
@@ -112,6 +113,7 @@ namespace BusinessLayer
 
 
         }
+
         /// <summary>
         /// Réalise un virement du compte en paramètre n°1 vers le compte en paramètre n°2 d'un montant en paramètre n°3
         /// </summary>
