@@ -1,20 +1,20 @@
 ﻿WpfComptesBancaires
 1.0.0.0
 
-exe
+winexe
 C#
 .cs
-D:\Telechargement\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\
 WpfComptesBancaires
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Telechargement\TD4\WpfComptesBancaires\App.xaml
-11407045341
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfComptesBancaires\App.xaml
+3872364386
 
-6-1126386296
-206-1853797068
-MainWindow.xaml;
+41-1561227976
+206595382033
+MainWindow.xaml;WpfComptesBancaires\App.xaml;WpfComptesBancaires\MainWindow.xaml;
 
-True
+False
 

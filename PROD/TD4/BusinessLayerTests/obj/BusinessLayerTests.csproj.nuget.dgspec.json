@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Telechargement\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj": {}
+    "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj": {}
   },
   "projects": {
-    "D:\\Telechargement\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj": {
+    "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Telechargement\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj",
+        "projectUniqueName": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj",
         "projectName": "BusinessLayerTests",
-        "projectPath": "D:\\Telechargement\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj",
-        "packagesPath": "C:\\Users\\Bekhouche AMIR\\.nuget\\packages\\",
-        "outputPath": "D:\\Telechargement\\TD4\\BusinessLayerTests\\obj\\",
+        "projectPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj",
+        "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayerTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bekhouche AMIR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Telechargement\\TD4\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Telechargement\\TD4\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "D:\\Telechargement\\TD4\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "D:\\Telechargement\\TD4\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -50,7 +50,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -89,24 +90,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Telechargement\\TD4\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Telechargement\\TD4\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Telechargement\\TD4\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Bekhouche AMIR\\.nuget\\packages\\",
-        "outputPath": "D:\\Telechargement\\TD4\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bekhouche AMIR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,8 +122,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Telechargement\\TD4\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "D:\\Telechargement\\TD4\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -136,7 +137,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -160,24 +162,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Telechargement\\TD4\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Telechargement\\TD4\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "D:\\Telechargement\\TD4\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Bekhouche AMIR\\.nuget\\packages\\",
-        "outputPath": "D:\\Telechargement\\TD4\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\TD4\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bekhouche AMIR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -203,7 +205,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -233,7 +236,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
