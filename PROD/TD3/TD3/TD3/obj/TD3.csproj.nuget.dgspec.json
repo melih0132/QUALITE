@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\TD3.csproj": {}
+    "P:\\S3\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\TD3.csproj": {}
   },
   "projects": {
-    "P:\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\TD3.csproj": {
+    "P:\\S3\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\TD3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\TD3.csproj",
+        "projectUniqueName": "P:\\S3\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\TD3.csproj",
         "projectName": "TD3",
-        "projectPath": "P:\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\TD3.csproj",
+        "projectPath": "P:\\S3\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\TD3.csproj",
         "packagesPath": "C:\\Users\\cetinkam\\.nuget\\packages\\",
-        "outputPath": "P:\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\obj\\",
+        "outputPath": "P:\\S3\\R3.04 Qualite\\PROD\\TD3\\TD3\\TD3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

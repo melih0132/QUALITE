@@ -11,6 +11,7 @@ namespace TD3.UserControls
         public ConvertisseurEuro()
         {
             InitializeComponent();
+
             devises = Service.ChargerDevises();
             DeviseComboBox.ItemsSource = devises;
             DeviseComboBox.DisplayMemberPath = "NomDevise";

@@ -28,7 +28,7 @@
                 Width="150"
                 Margin="0,20,0,0"
                 HorizontalAlignment="Center"
-                Background="#FF909090"
+                Background="#F0F0F0"
                 BorderBrush="Black"
                 Style="{DynamicResource MaterialDesignComboBox}" />
         </StackPanel>
@@ -42,7 +42,7 @@
                 Width="150"
                 Margin="0,20,0,0"
                 HorizontalAlignment="Center"
-                Background="#FF909090"
+                Background="#F0F0F0"
                 BorderBrush="Black"
                 Style="{DynamicResource MaterialDesignTextBox}" />
         </StackPanel>
@@ -61,9 +61,9 @@
             <TextBox
                 x:Name="ResultatTextBox"
                 Width="150"
-                Margin="0,20,0,0"
+                Margin="0,20,0,20"
                 HorizontalAlignment="Center"
-                Background="#FF909090"
+                Background="#F0F0F0"
                 BorderBrush="Black"
                 IsReadOnly="True"
                 Style="{DynamicResource MaterialDesignTextBox}" />

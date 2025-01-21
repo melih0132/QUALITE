@@ -6,7 +6,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!--  En-tête  -->
+            <RowDefinition Height="*" />
+            <!--  Liste avec défilement  -->
+            <RowDefinition Height="Auto" />
+            <!--  Boutons en bas  -->
+        </Grid.RowDefinitions>
+
+        <!--  En-tête  -->
         <StackPanel
+            Grid.Row="0"
             Margin="10"
             HorizontalAlignment="Center"
             VerticalAlignment="Top">
@@ -17,46 +28,48 @@
                 Text="Devises" />
         </StackPanel>
 
-        <StackPanel
+        <!--  Liste défilable  -->
+        <ScrollViewer
+            Grid.Row="1"
             Margin="10"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Center">
-            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-                <ListView
-                    x:Name="DeviseListView"
-                    HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel
-                                Margin="5"
-                                HorizontalAlignment="Stretch"
-                                Orientation="Horizontal">
-                                <TextBlock
-                                    Width="150"
-                                    VerticalAlignment="Center"
-                                    Text="{Binding NomDevise}" />
-                                <TextBox
-                                    Width="100"
-                                    Margin="0,0,10,0"
-                                    VerticalAlignment="Center"
-                                    Text="{Binding Taux}" />
-                                <Button
-                                    Width="30"
-                                    Height="30"
-                                    Margin="5,0,0,0"
-                                    Background="Purple"
-                                    Click="SupprimerDevise_Click"
-                                    Content="X"
-                                    Foreground="White" />
-                            </StackPanel>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </ScrollViewer>
-        </StackPanel>
+            HorizontalScrollBarVisibility="Auto"
+            VerticalScrollBarVisibility="Auto">
+            <ListView
+                x:Name="DeviseListView"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel
+                            Margin="5"
+                            HorizontalAlignment="Stretch"
+                            Orientation="Horizontal">
+                            <TextBlock
+                                Width="150"
+                                VerticalAlignment="Center"
+                                Text="{Binding NomDevise}" />
+                            <TextBox
+                                Width="100"
+                                Margin="0,0,10,0"
+                                VerticalAlignment="Center"
+                                Text="{Binding Taux}" />
+                            <Button
+                                Width="30"
+                                Height="30"
+                                Margin="5,0,0,0"
+                                Background="Purple"
+                                Click="SupprimerDevise_Click"
+                                Content="X"
+                                Foreground="White" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
 
+        <!--  Boutons et champs de saisie  -->
         <StackPanel
+            Grid.Row="2"
             Margin="10"
             HorizontalAlignment="Center"
             VerticalAlignment="Bottom"
@@ -83,7 +96,7 @@
                     Content="Ajouter une devise"
                     Foreground="White" />
                 <Button
-                    Width="200"
+                    Width="220"
                     Height="40"
                     Margin="10,0,0,0"
                     Background="Purple"

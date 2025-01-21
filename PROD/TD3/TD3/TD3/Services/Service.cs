@@ -14,16 +14,19 @@ namespace TD3
         {
             try
             {
-                if (File.Exists(filePath))
-                {
-                    string json = File.ReadAllText(filePath);
-                    return JsonSerializer.Deserialize<List<Devise>>(json);
-                }
-                return new List<Devise>();
+                if (!File.Exists(filePath))
+                    return new List<Devise>();
+
+                string json = File.ReadAllText(filePath);
+                return JsonSerializer.Deserialize<List<Devise>>(json) ?? new List<Devise>();
             }
-            catch (Exception ex)
+            catch (JsonException ex)
             {
-                throw new Exception("Erreur lors du chargement des devises : " + ex.Message);
+                throw new IOException("Erreur lors de la désérialisation des devises.", ex);
+            }
+            catch (IOException ex)
+            {
+                throw new IOException("Erreur lors de la lecture du fichier des devises.", ex);
             }
         }
 
@@ -31,12 +34,25 @@ namespace TD3
         {
             try
             {
-                string json = JsonSerializer.Serialize(devises);
+                if (devises == null)
+                    throw new ArgumentNullException(nameof(devises), "La liste des devises ne peut pas être null.");
+
+                string directory = Path.GetDirectoryName(filePath);
+                if (!string.IsNullOrEmpty(directory))
+                {
+                    Directory.CreateDirectory(directory);
+                }
+
+                string json = JsonSerializer.Serialize(devises, new JsonSerializerOptions { WriteIndented = true });
                 File.WriteAllText(filePath, json);
+            }
+            catch (IOException ex)
+            {
+                throw new IOException("Erreur lors de l'écriture du fichier des devises.", ex);
             }
             catch (Exception ex)
             {
-                throw new Exception("Erreur lors de la sauvegarde des devises : " + ex.Message);
+                throw new Exception("Erreur inattendue lors de la sauvegarde des devises.", ex);
             }
         }
     }

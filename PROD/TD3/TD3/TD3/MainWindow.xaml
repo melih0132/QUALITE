@@ -13,7 +13,7 @@
             <RowDefinition Height="236*" />
         </Grid.RowDefinitions>
 
-        <DockPanel Grid.Row="0" Background="#ffff00">
+        <DockPanel Grid.Row="0" Background="CadetBlue">
             <materialDesign:PopupBox
                 DockPanel.Dock="Left"
                 PlacementMode="BottomAndAlignLeftEdges"

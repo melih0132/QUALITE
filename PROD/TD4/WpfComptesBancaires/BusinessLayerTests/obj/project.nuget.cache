@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "agPf1iQ9SMA=",
+  "dgSpecHash": "JKTUsAFOHVo=",
   "success": true,
-  "projectFilePath": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayerTests\\BusinessLayerTests.csproj",
+  "projectFilePath": "P:\\S3\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayerTests\\BusinessLayerTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cetinkam\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\cetinkam\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

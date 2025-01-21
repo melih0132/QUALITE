@@ -1,18 +1,165 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\",
+  "WorkspaceRootPath": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{243CDDC1-81FD-4C67-B058-CB2558379425}|BusinessLayerTests\\BusinessLayerTests.csproj|p:\\r3.04 qualite\\prod\\td4\\wpfcomptesbancaires\\businesslayertests\\servicecomptetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{243CDDC1-81FD-4C67-B058-CB2558379425}|BusinessLayerTests\\BusinessLayerTests.csproj|solutionrelative:businesslayertests\\servicecomptetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7F13A42-45C2-4D1B-9559-E1E1D97FF497}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\telechargement\\td4\\businesslayer\\servicecompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE49D833-C0E2-4E74-915E-F26916743686}|BusinessLayer\\BusinessLayer.csproj|p:\\r3.04 qualite\\prod\\td4\\wpfcomptesbancaires\\businesslayer\\servicecompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE49D833-C0E2-4E74-915E-F26916743686}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\servicecompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEBAB8CF-E4C8-46A1-9CD1-2F0F458D207F}|..\\WpfVirement\\WpfVirement.csproj|d:\\telechargement\\td4\\wpfvirement\\recherchevirement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE49D833-C0E2-4E74-915E-F26916743686}|BusinessLayer\\BusinessLayer.csproj|p:\\r3.04 qualite\\prod\\td4\\wpfcomptesbancaires\\businesslayer\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE49D833-C0E2-4E74-915E-F26916743686}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7F13A42-45C2-4D1B-9559-E1E1D97FF497}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\telechargement\\td4\\businesslayer\\compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBAB8CF-E4C8-46A1-9CD1-2F0F458D207F}|..\\WpfVirement\\WpfVirement.csproj|d:\\telechargement\\td4\\wpfvirement\\recherchevirement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12792739-E9DC-4AF7-AD35-11AA1BAFC908}|..\\BusinessLayerTests\\BusinessLayerTests.csproj|d:\\telechargement\\td4\\businesslayertests\\servicecomptetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F13A42-45C2-4D1B-9559-E1E1D97FF497}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\telechargement\\td4\\businesslayer\\iservicecompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\WpfComptesBancairesMVVM\\ViewsModels\\ServiceCompteVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\RechercheVirement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|d:\\telechargement\\td4\\wpfcomptesbancaires\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|d:\\telechargement\\td4\\wpfcomptesbancaires\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|d:\\telechargement\\td4\\wpfcomptesbancaires\\wpfcomptesbancaires.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|solutionrelative:wpfcomptesbancaires.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\WpfVirement\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|d:\\telechargement\\td4\\wpfcomptesbancaires\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|d:\\telechargement\\td4\\wpfcomptesbancaires\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\AppData\\Local\\SourceServer\\bab58217b4d2d3bf84a1131aa84efcb91e0e7251d19faccc69a397618a347463\\src\\coreclr\\System.Private.CoreLib\\src\\System\\RuntimeType.CoreCLR.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|d:\\telechargement\\td4\\wpfcomptesbancaires\\wpfcomptesbancaires.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2B0D5FA5-4AAF-4993-B469-A2BEFD9BB0E8}|WpfComptesBancaires.csproj|solutionrelative:wpfcomptesbancaires.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\DataLayer\\DataLayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\WpfVirement\\WpfVirement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\WpfVirement\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\BusinessLayer\\Compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\BusinessLayer\\ServiceCompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\DataLayer\\DataAccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\DataLayer\\DataBaseException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\WpfVirement\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\BusinessLayer\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\WpfVirement\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\BusinessLayer\\BusinessLayer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\BusinessLayer\\BusinessLayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\Virement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\ServiceCompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\DataAccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\RechercheVirement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\IServiceCompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\Compte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\IDataAccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\ServiceCompteTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AjoutCompte.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\DataBaseException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AjoutCompte.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\WpfVirement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\WpfVirement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\WpfComptesBancairesMVVM\\Views\\ServiceCompteView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\BusinessLayer\\IServiceCompte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\DataLayer\\IDataAccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\DataLayer\\DataBaseException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +169,520 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceCompteTests.cs",
-              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayerTests\\ServiceCompteTests.cs",
-              "RelativeDocumentMoniker": "BusinessLayerTests\\ServiceCompteTests.cs",
-              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayerTests\\ServiceCompteTests.cs",
-              "RelativeToolTip": "BusinessLayerTests\\ServiceCompteTests.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAtwCkAAAAWAAAA",
+              "DocumentIndex": 2,
+              "Title": "Compte.cs",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\BusinessLayer\\Compte.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\Compte.cs",
+              "ToolTip": "D:\\Telechargement\\TD4\\BusinessLayer\\Compte.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\Compte.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wC0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T09:13:44.314Z",
+              "WhenOpened": "2025-01-20T22:00:05.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServiceCompte.cs",
-              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayer\\ServiceCompte.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\ServiceCompte.cs",
-              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayer\\ServiceCompte.cs",
-              "RelativeToolTip": "BusinessLayer\\ServiceCompte.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBEAAAAiAAAA",
+              "Title": "RechercheVirement.xaml.cs",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\WpfVirement\\RechercheVirement.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WpfVirement\\RechercheVirement.xaml.cs",
+              "ToolTip": "D:\\Telechargement\\TD4\\WpfVirement\\RechercheVirement.xaml.cs",
+              "RelativeToolTip": "..\\WpfVirement\\RechercheVirement.xaml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAA0wF8AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T09:37:21.556Z"
+              "WhenOpened": "2025-01-20T21:59:47.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Compte.cs",
-              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayer\\Compte.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Compte.cs",
-              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD4\\WpfComptesBancaires\\BusinessLayer\\Compte.cs",
-              "RelativeToolTip": "BusinessLayer\\Compte.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAqwB0AAAAxAAAA",
+              "DocumentIndex": 3,
+              "Title": "RechercheVirement.xaml",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\WpfVirement\\RechercheVirement.xaml",
+              "RelativeDocumentMoniker": "..\\WpfVirement\\RechercheVirement.xaml",
+              "ToolTip": "D:\\Telechargement\\TD4\\WpfVirement\\RechercheVirement.xaml",
+              "RelativeToolTip": "..\\WpfVirement\\RechercheVirement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-20T21:59:09.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceCompteTests.cs",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\BusinessLayerTests\\ServiceCompteTests.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayerTests\\ServiceCompteTests.cs",
+              "ToolTip": "D:\\Telechargement\\TD4\\BusinessLayerTests\\ServiceCompteTests.cs",
+              "RelativeToolTip": "..\\BusinessLayerTests\\ServiceCompteTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T09:36:57.647Z"
+              "WhenOpened": "2025-01-20T21:56:35.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceCompte.cs",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\BusinessLayer\\ServiceCompte.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\ServiceCompte.cs",
+              "ToolTip": "D:\\Telechargement\\TD4\\BusinessLayer\\ServiceCompte.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\ServiceCompte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T21:55:24.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServiceCompte.cs",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\BusinessLayer\\IServiceCompte.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\IServiceCompte.cs",
+              "ToolTip": "D:\\Telechargement\\TD4\\BusinessLayer\\IServiceCompte.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\IServiceCompte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T21:55:21.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceCompteVM.cs",
+              "DocumentMoniker": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\WpfComptesBancairesMVVM\\ViewsModels\\ServiceCompteVM.cs",
+              "ToolTip": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\WpfComptesBancairesMVVM\\ViewsModels\\ServiceCompteVM.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T18:50:12.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ServiceCompteView.xaml",
+              "DocumentMoniker": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\WpfComptesBancairesMVVM\\Views\\ServiceCompteView.xaml",
+              "ToolTip": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\WpfComptesBancairesMVVM\\Views\\ServiceCompteView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-20T18:50:00.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IServiceCompte.cs",
+              "DocumentMoniker": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\BusinessLayer\\IServiceCompte.cs",
+              "ToolTip": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\BusinessLayer\\IServiceCompte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T18:49:22.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IDataAccess.cs",
+              "DocumentMoniker": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\DataLayer\\IDataAccess.cs",
+              "ToolTip": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\DataLayer\\IDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T18:43:57.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DataBaseException.cs",
+              "DocumentMoniker": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\DataLayer\\DataBaseException.cs",
+              "ToolTip": "P:\\R3.04 - QUALITE DE DEVELOPPEMENT\\TD4\\DataLayer\\DataBaseException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T18:43:56.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Virement.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\Virement.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\Virement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:52:53.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T13:37:46.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ServiceCompte.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\ServiceCompte.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\ServiceCompte.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAiwLYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:41:33.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\DataAccess.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDEAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:39:20.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RechercheVirement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\RechercheVirement.xaml.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\RechercheVirement.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:08:47.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RechercheVirement.xaml",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\RechercheVirement.xaml",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\RechercheVirement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T17:05:28.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IServiceCompte.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\IServiceCompte.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\IServiceCompte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:15:57.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Compte.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\Compte.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayer\\Compte.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:41:12.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:16:05.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\IDataAccess.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\IDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:10:27.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:04:44.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\App.xaml",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T16:35:54.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA9wFsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:05:03.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-22T12:05:03.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ServiceCompteTests.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\ServiceCompteTests.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\ServiceCompteTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:42:33.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AjoutCompte.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AjoutCompte.xaml.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AjoutCompte.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:29:02.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DataBaseException.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\DataBaseException.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\DataLayer\\DataBaseException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:47:45.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AjoutCompte.xaml",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AjoutCompte.xaml",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\AjoutCompte.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T16:28:21.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "WpfVirement.csproj",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\WpfVirement.csproj",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\WpfVirement.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-17T16:35:05.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "WpfVirement.csproj",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\WpfVirement.csproj",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\WpfVirement\\WpfVirement.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-17T16:34:39.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BusinessLayerTests.csproj",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-10T14:44:09.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WpfComptesBancaires.csproj",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\WpfComptesBancaires.csproj",
+              "RelativeDocumentMoniker": "WpfComptesBancaires.csproj",
+              "ToolTip": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\WpfComptesBancaires.csproj",
+              "RelativeToolTip": "WpfComptesBancaires.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T12:47:28.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BusinessLayerTests.csproj",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\TD4\\BusinessLayerTests\\BusinessLayerTests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-10T13:44:59.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DataLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\DataLayer\\DataLayer.csproj",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\DataLayer\\DataLayer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T07:38:28.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WpfVirement.csproj",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\WpfVirement.csproj",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\WpfVirement.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T15:32:41.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-22T15:28:25.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ServiceCompte.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\ServiceCompte.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\ServiceCompte.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:14:09.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Compte.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\Compte.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\Compte.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:14:31.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\MainWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:28:25.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\DataLayer\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\DataLayer\\DataAccess.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:12:20.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataBaseException.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\DataLayer\\DataBaseException.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\DataLayer\\DataBaseException.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:20:54.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\AssemblyInfo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:29:10.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\.editorconfig",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\.editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-22T12:17:38.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\App.xaml",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\WpfVirement\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-22T15:28:39.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-22T12:50:51.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WpfComptesBancaires",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\WpfComptesBancaires.csproj",
+              "RelativeDocumentMoniker": "WpfComptesBancaires.csproj",
+              "ToolTip": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\WpfComptesBancaires.csproj",
+              "RelativeToolTip": "WpfComptesBancaires.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T13:46:56.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "D:\\Telechargement\\TD4\\WpfComptesBancaires\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:47:32.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RuntimeType.CoreCLR.cs",
+              "DocumentMoniker": "C:\\Users\\selmaner\\AppData\\Local\\SourceServer\\bab58217b4d2d3bf84a1131aa84efcb91e0e7251d19faccc69a397618a347463\\src\\coreclr\\System.Private.CoreLib\\src\\System\\RuntimeType.CoreCLR.cs",
+              "ToolTip": "C:\\Users\\selmaner\\AppData\\Local\\SourceServer\\bab58217b4d2d3bf84a1131aa84efcb91e0e7251d19faccc69a397618a347463\\src\\coreclr\\System.Private.CoreLib\\src\\System\\RuntimeType.CoreCLR.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:47:10.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BusinessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\BusinessLayer.csproj",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\BusinessLayer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T13:46:49.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BusinessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\BusinessLayer.csproj",
+              "ToolTip": "C:\\Users\\selmaner\\Desktop\\BusinessLayer\\BusinessLayer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T12:10:28.293Z"
             }
           ]
         }

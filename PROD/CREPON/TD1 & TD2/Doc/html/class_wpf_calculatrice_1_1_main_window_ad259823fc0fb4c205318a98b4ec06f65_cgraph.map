@@ -1,5 +1,0 @@
-<map id="butFact_Click" name="butFact_Click">
-<area shape="rect" id="Node000001" title="Gère l&#39;événement de clic pour l&#39;opération de factorielle." alt="" coords="5,5,107,32"/>
-<area shape="rect" id="Node000002" href="$class_calculatrice_1_1_calcul.html#a535c182868633726d68858cae3152931" title="Calcule la factorielle d&#39;un nombre entier non négatif." alt="" coords="155,5,348,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,16,140,16,140,21,107,21"/>
-</map>

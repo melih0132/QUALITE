@@ -1,5 +1,0 @@
-<map id="butPlus_Click" name="butPlus_Click">
-<area shape="rect" id="Node000001" title="Gère l&#39;événement de clic pour l&#39;opération d&#39;addition." alt="" coords="5,5,107,32"/>
-<area shape="rect" id="Node000002" href="$class_calculatrice_1_1_calcul.html#a1de7821eed025c8319ead058b259ed7a" title="Additionne deux nombres." alt="" coords="155,5,335,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,16,140,16,140,21,107,21"/>
-</map>

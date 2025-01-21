@@ -1,5 +1,0 @@
-<map id="butDivise_Click" name="butDivise_Click">
-<area shape="rect" id="Node000001" title="Gère l&#39;événement de clic pour l&#39;opération de division." alt="" coords="5,5,115,32"/>
-<area shape="rect" id="Node000002" href="$class_calculatrice_1_1_calcul.html#aba97d5efa1c44a62578c1faf2dfc7ba2" title="Divise le premier nombre par le deuxième." alt="" coords="163,5,340,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,16,148,16,148,21,115,21"/>
-</map>

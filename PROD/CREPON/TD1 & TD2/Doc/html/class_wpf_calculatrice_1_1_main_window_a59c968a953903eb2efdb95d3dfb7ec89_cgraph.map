@@ -1,5 +1,0 @@
-<map id="butMoins_Click" name="butMoins_Click">
-<area shape="rect" id="Node000001" title="Gère l&#39;événement de clic pour l&#39;opération de soustraction." alt="" coords="5,5,116,32"/>
-<area shape="rect" id="Node000002" href="$class_calculatrice_1_1_calcul.html#a5580cea5b8bf995353c5337cfd2ea98d" title="Soustrait le deuxième nombre du premier." alt="" coords="164,5,370,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,16,149,16,149,21,116,21"/>
-</map>
