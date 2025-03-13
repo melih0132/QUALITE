@@ -16,24 +16,18 @@ Ce référentiel regroupe les projets et exemples abordés dans les CM1 et CM2 d
   - Patterns d'architecture : MVC, MVVM, couches logicielles
   - Bonnes pratiques en base de données : vues, ORM, procédures stockées
 - **Développement** :
-  - Utilisation de frameworks (Symfony, Laravel, .NET, etc.)
   - Gestion des exceptions et documentation du code
 - **Versioning** :
   - Utilisation de Git : commits, branches, merges, stash
-  - Intégration continue et déploiement avec GitHub Actions, GitLab CI, Azure DevOps
 
 ### Software Patterns et Tests
 - **Patrons logiciels (Software Patterns)** :
   - Patterns d'analyse (patterns de domaine)
   - Patterns d'architecture (MVC, MVP, MVVM, etc.)
-  - Patterns de conception (Singleton, Factory, Observer, etc.)
-  - Idiomes et bonnes pratiques propres aux langages (ex. idiomes C#)
+  - Patterns de conception (Singleton, Factory, etc.)
 - **Tests logiciels** :
-  - Pyramide des tests (unitaires, intégration, end-to-end, exploratoires)
-  - Tests unitaires : frameworks comme JUnit, NUnit, PHPUnit
+  - Tests unitaires : MSTests
   - Tests d'intégration : mocks et tests en environnement réel
-  - Tests end-to-end : Selenium, Playwright
-  - Tests de performance : Apache Bench, DevTools
   - Automatisation des tests dans une usine logicielle
 
 ---
